@@ -1,675 +1,2513 @@
 [
   {
     "id": 1,
-    "question": "What are the differences between hard disk drives and solid state disks? (Choose two.)",
+    "question": "Wann begann Linus Torvalds mit der Entwicklung von Linux?",
     "options": [
-      "Hard disks can fail due to physical damage, while solid state disks cannot fail.",
-      "Solid state disks can store many times as much data as hard disk drives.",
-      "/dev/sda is a hard disk device while /dev/ssda is a solid state disk.",
-      "Solid state disks provide faster access to stored data than hard disks.",
-      "Hard disks have a motor and moving parts, solid state disks do not."
+      "1993",
+      "1991",
+      "2004",
+      "1970"
     ],
     "answer": [
-      "Hard disks have a motor and moving parts, solid state disks do not.",
-      "Solid state disks provide faster access to stored data than hard disks."
+      "1991"
     ]
   },
   {
     "id": 2,
-    "question": "Members of a team already have experience using Red Hat Enterprise Linux. For a small hobby project, the team wants to set up a Linux server without paying for a subscription. Which of the following Linux distributions allows the team members to apply as much of their Red Hat Enterprise Linux knowledge as possible?",
+    "question": "Was ist eine Linux-Distribution?",
     "options": [
+      "Ein Hardwaregerät",
+      "Eine Sammlung von Software und einem Linux Kernel",
+      "Ein Betriebssystem von Microsoft",
+      "Ein Netzwerkprotokoll"
+    ],
+    "answer": [
+      "Eine Sammlung von Software und einem Linux Kernel"
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Welche Distribution gehört zur Debian-Familie?",
+    "options": [
+      "Red Hat",
+      "Fedora",
+      "Ubuntu",
+      "SUSE"
+    ],
+    "answer": [
+      "Ubuntu"
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Welches Projekt nutzt den Quellcode von Red Hat Enterprise Linux?",
+    "options": [
+      "Debian",
       "CentOS",
-      "Debian GNU/Linux",
-      "Ubuntu Linux LTS",
-      "openSUSE",
-      "Raspbian"
+      "Fedora",
+      "openSUSE"
     ],
     "answer": [
       "CentOS"
     ]
   },
   {
-    "id": 3,
-    "question": "Reverse DNS assigns hostnames to IP addresses. How is the name of the IP address 198.51.100.165 stored on a DNS server?",
-    "options": [
-      "In the A record for 165.100.51.198.ipv4.arpa.",
-      "In the REV record for arpa.in-addr.198.51.100.165.",
-      "In the RNAME record for 198-51-100-165.rev.arpa.",
-      "In the ARPA record for 165.100.51.198.rev.",
-      "In the PTR record for 165.100.51.198.in-addr.arpa."
-    ],
-    "answer": [
-      "In the PTR record for 165.100.51.198.in-addr.arpa."
-    ]
-  },
-  {
-    "id": 4,
-    "question": "Which of the following types of bus can connect hard disk drives with the motherboard?",
-    "options": [
-      "The RAM bus",
-      "The NUMA bus",
-      "The Auto bus",
-      "The CPU bus",
-      "The SATA bus"
-    ],
-    "answer": [
-      "The SATA bus"
-    ]
-  },
-  {
     "id": 5,
-    "question": "Which of the following commands can be used to resolve a DNS name to an IP address?",
+    "question": "Welches Betriebssystem basiert auf dem Linux-Kernel und wird hauptsächlich auf Mobiltelefonen verwendet?",
     "options": [
-      "dnsname",
-      "query",
-      "dns",
-      "iplookup",
-      "host"
+      "Raspbian",
+      "Windows",
+      "Android",
+      "macOS"
     ],
     "answer": [
-      "host"
+      "Android"
     ]
   },
   {
     "id": 6,
-    "question": "What information can be displayed by top?",
+    "question": "Was ist ein wesentlicher Vorteil von Cloud Computing?",
     "options": [
-      "User accounts, ordered by the number of files.",
-      "Running processes, ordered by CPU or RAM consumption.",
-      "User accounts, ordered by the number of logins.",
-      "User groups, ordered by the number of members.",
-      "Existing files, ordered by their size."
+      "Hohe Kosten",
+      "Flexibilität",
+      "Komplexität",
+      "Schwierige Wiederherstellung"
     ],
     "answer": [
-      "Running processes, ordered by CPU or RAM consumption."
+      "Flexibilität"
     ]
   },
   {
     "id": 7,
-    "question": "Which of the following outputs comes from the command free?",
+    "question": "Welche Distribution ist besonders für Anfänger geeignet?",
     "options": [
-      "A. 21:04 up 14 dats, 7:43, 3 users, load average: 0.89, 1.00, 0.99",
-      "avg-cpu:  %user   %nice %system %iowait  %steal   %idle\n16.36    0.00    2.99    1.06    0.00   79.59",
-      "Filesystem      Size  Used Avail Use% Mounted on \n/dev/nvme0n1p2  468G   33G  412G   8% /",
-      "120K  /tmp",
-      "total        used        free      shared  buff/cache   available\nMem:            15Gi       2.3Gi         9Gi       910Mi       3.0Gi        11Gi\nSwap:          2.0Gi          0B       2.0Gi"
+      "Debian",
+      "Ubuntu",
+      "CentOS",
+      "Red Hat Enterprise Linux"
     ],
     "answer": [
-      "total        used        free      shared  buff/cache   available\nMem:            15Gi       2.3Gi         9Gi       910Mi       3.0Gi        11Gi\nSwap:          2.0Gi          0B       2.0Gi"
+      "Ubuntu"
     ]
   },
   {
     "id": 8,
-    "question": "What is true about the dmesg command? (Choose two.)",
+    "question": "Nennen Sie eine gängige Linux-Distribution für Smartphones.",
     "options": [
-      "It might not display older information because it was overwritten by newer information.",
-      "It sends messages to the command lines of all current user sessions.",
-      "It traces the execution of a command and shows each step the program carries out.",
-      "It displays the content of the Linux kernel\u2019s ring buffer.",
-      "It immediately outputs all new messages written to the system journal."
+      "Debian",
+      "Ubuntu",
+      "Android",
+      "CentOS"
     ],
     "answer": [
-      "It displays the content of the Linux kernel\u2019s ring buffer.",
-      "It might not display older information because it was overwritten by newer information."
+      "Android"
     ]
   },
   {
     "id": 9,
-    "question": "Which of the following outputs could stem from the command last?",
+    "question": "Welche Geräte können Android außer Smartphones nutzen?",
     "options": [
-      "1 ls\n 2 cat text.txt\n 3 logout",
-      "Password for user last changed at Sat Mar 31 16:38:57 EST 2018",
-      "Last login: Fri Mar 23 10:56:39 2018 from server.example.com",
-      "EXT4-fs(dm7): mountes filesystem with ordered data mode. Opts: (null)",
-      "root tty2 Wed May 17 21:11 - 21:11 (00:00)"
+      "Laptops",
+      "Smart TVs",
+      "Desktops",
+      "Server"
     ],
     "answer": [
-      "root tty2 Wed May 17 21:11 - 21:11 (00:00)"
+      "Smart TVs"
     ]
   },
   {
     "id": 10,
-    "question": "What is true about the owner of a file?",
+    "question": "Welche Distribution wird häufig in Unternehmensumgebungen verwendet?",
     "options": [
-      "The user owning a file must be a member of the file\u2019s group.",
-      "The owner of a file cannot be changed once it is assigned to an owner.",
-      "Each file is owned by exactly one user and one group.",
-      "The owner of a file always has full permissions when accessing the file.",
-      "When a user is deleted, all files owned by the user disappear."
+      "Fedora",
+      "Arch Linux",
+      "Debian",
+      "Gentoo"
     ],
     "answer": [
-      "Each file is owned by exactly one user and one group."
+      "Debian"
     ]
   },
   {
     "id": 11,
-    "question": "What is the UID of the user root?",
+    "question": "Was ist der Zweck einer Anwendung?",
     "options": [
-      "255",
-      "0",
-      "1",
-      "-1",
-      "65536"
+      "Ein Computerprogramm, das direkt an das Innenleben des Computers gebunden ist",
+      "Ein Computerprogramm, dessen Zweck an Aufgaben gebunden ist, die vom Benutzer ausgeführt werden",
+      "Ein Computerprogramm, das nur für Systemadministratoren nützlich ist",
+      "Ein Computerprogramm, das ausschließlich für die Netzwerkverwaltung verwendet wird"
     ],
     "answer": [
-      "0"
+      "Ein Computerprogramm, dessen Zweck an Aufgaben gebunden ist, die vom Benutzer ausgeführt werden"
     ]
   },
   {
     "id": 12,
-    "question": "Which permissions are set on a regular file once the permissions have been modified with the command chmod 654 file.txt?",
+    "question": "Welche Tools verwenden Debian-basierte Distributionen zur Installation von Softwarepaketen?",
     "options": [
-      "d\u2014wxr-x--",
-      "drw-r-xr--",
-      "\u2013rwxrw---x",
-      "\u2013wxr-x--x",
-      "-rw-r-xr--"
+      "rpm, yum, dnf",
+      "dpkg, apt-get, apt",
+      "snap, flatpak, appimage",
+      "brew, port, pkg"
     ],
     "answer": [
-      "-rw-r-xr--"
+      "dpkg, apt-get, apt"
     ]
   },
   {
     "id": 13,
-    "question": "Which of the following tar options handle compression? (Choose two.)",
+    "question": "Was ist das bevorzugte Dokumentenformat von LibreOffice und Apache OpenOffice?",
     "options": [
-      "-z",
-      "-g",
-      "-z2",
-      "-bz",
-      "-j"
+      "Microsoft Word",
+      "PDF",
+      "Open Document Format (ODF)",
+      "Rich Text Format (RTF)"
     ],
     "answer": [
-      "-z",
-      "-j"
+      "Open Document Format (ODF)"
     ]
   },
   {
     "id": 14,
-    "question": "Which of the following permissions are set on the /tmp/ directory?",
+    "question": "Welche Anwendung aus der LibreOffice Suite dient der elektronischen Tabellenkalkulation?",
     "options": [
-      "rwX",
-      "rwxrwxrwt",
-      "r-xr-X--t",
-      "rwSrw-rw-",
-      "rwxrwS---"
+      "Writer",
+      "Calc",
+      "Impress",
+      "Draw"
     ],
     "answer": [
-      "rwxrwxrwt"
+      "Calc"
     ]
   },
   {
     "id": 15,
-    "question": "What information is stored in /etc/passwd? (Choose three.)",
+    "question": "Welcher Open-Source-Webbrowser bildet die Grundlage für die Entwicklung von Google Chrome?",
     "options": [
-      "The user\u2019s default shell",
-      "The user\u2019s storage space limit",
-      "The username",
-      "The numerical user ID",
-      "The encrypted password"
+      "Mozilla Firefox",
+      "Safari",
+      "Chromium",
+      "Opera"
     ],
     "answer": [
-      "The user\u2019s default shell",
-      "The username",
-      "The numerical user ID"
+      "Chromium"
     ]
   },
   {
     "id": 16,
-    "question": "Which command adds the new user tux and creates the user\u2019s home directory with default configuration files?",
+    "question": "Welches Softwarepaket ermöglicht den Dateiaustausch zwischen Linux- und Windows-Rechnern über das lokale Netzwerk?",
     "options": [
-      "useradd \u2013m tux",
-      "defaultuser tux",
-      "useradd \u2013o default tux",
-      "passwd \u2013a tux",
-      "usercreate tux"
+      "NFS",
+      "Samba",
+      "FTP",
+      "HTTP"
     ],
     "answer": [
-      "useradd \u2013m tux"
+      "Samba"
     ]
   },
   {
     "id": 17,
-    "question": "Which of the following commands creates an archive file work.tar from the contents of the directory ./work/?",
+    "question": "Welcher Befehl könnte verwendet werden, um Blender auf Ubuntu zu installieren?",
     "options": [
-      "tar work > work.tar",
-      "tar work.tar < ./work/",
-      "tar --new work.tar ./work/",
-      "tar \u2013cf work.tar ./work/",
-      "tar \u2013create work.tgz \u2013content ./work/"
+      "rpm install blender",
+      "apt-get install blender",
+      "yum install blender",
+      "dnf install blender"
     ],
     "answer": [
-      "tar \u2013cf work.tar ./work/"
+      "apt-get install blender"
     ]
   },
   {
     "id": 18,
-    "question": "The current directory contains the following file: -rwxr-xr-x 1 root root 859688 Feb 7 08:15 test.sh Given that the file is a valid shell script, how can this script be executed? (Choose two.)",
+    "question": "Welche Anwendung aus der LibreOffice Suite dient der elektronischen Tabellenkalkulation?",
     "options": [
-      "bash test.sh",
-      "${test.sh}",
-      "cmd ./test.sh",
-      "./test.sh",
-      "run test.sh"
+      "Writer",
+      "Calc",
+      "Impress",
+      "Draw"
     ],
     "answer": [
-      "bash test.sh",
-      "./test.sh"
+      "Calc"
     ]
   },
   {
     "id": 19,
-    "question": "Which of the following keys can be pressed to exit less?",
+    "question": "Welcher Open-Source-Webbrowser bildet die Grundlage für die Entwicklung von Google Chrome?",
     "options": [
-      "l",
-      "e",
-      "q",
-      "!",
-      "x"
+      "Firefox",
+      "Chromium",
+      "Opera",
+      "Safari"
     ],
     "answer": [
-      "q"
+      "Chromium"
     ]
   },
   {
     "id": 20,
-    "question": "What keyword is used in a shell script to begin a loop? (Specify one keyword only, without any additional information.)",
+    "question": "Welche ist die beliebteste Anwendung zum Bearbeiten von SVG-Dateien in Linux-Systemen?",
     "options": [
-      "for",
-      "forloop"
+      "GIMP",
+      "Inkscape",
+      "Blender",
+      "Krita"
     ],
     "answer": [
-      "for"
+      "Inkscape"
     ]
   },
   {
     "id": 21,
-    "question": "Which of the following commands will search for the file foo.txt under the directory /home?",
+    "question": "Welches Softwarepaket ermöglicht den Dateiaustausch zwischen Linux- und Windows-Rechnern über das lokale Netzwerk?",
     "options": [
-      "find /home \u2013 file foo.txt",
-      "find /home \u2013name foo.txt",
-      "find /home foo.txt",
-      "search /home \u2013file foo.txt",
-      "search /home foo. txt"
+      "NFS",
+      "Samba",
+      "FTP",
+      "SSH"
     ],
     "answer": [
-      "find /home \u2013name foo.txt"
+      "Samba"
     ]
   },
   {
     "id": 22,
-    "question": "A directory contains the following files: a.txt and b.txt, What would be the output of the following shell script? for file in *.txt",
+    "question": "Was bedeutet 'frei' im Kontext freier Software?",
     "options": [
-      "a b",
-      "*.txt",
-      "c.cav",
-      "a.txt",
-      "a.txt b.txt"
+      "Kostenlos",
+      "Redefreiheit",
+      "Unabhängig",
+      "Proprietär"
     ],
     "answer": [
-      "a.txt b.txt"
+      "Redefreiheit"
     ]
   },
   {
     "id": 23,
-    "question": "The current directory contains the following file: -rw-r\u2014r\u2014 1 root exec 24551 Apr 2 12:36 test.sh The file contains a valid shell script, but executing this file using ./test.sh leads to this error: bash: ./test.sh: Permission denied What should be done in order to successfully execute the script?",
+    "question": "Was ist die Freiheit 0 nach Richard Stallman?",
     "options": [
-      "The file\u2019s extension should be changed from .sh to .bin.",
-      "The script should be run using #!./test. sh instead of ./test.sh.",
-      "The execute bit should be set in the file\u2019s permissions.",
-      "The user executing the script should be added to the exec group.",
-      "The SetUID bit should be set in the file\u2019s permissions"
+      "Die Freiheit, das Programm zu verändern",
+      "Die Freiheit, das Programm zu redistribuieren",
+      "Die Freiheit, das Programm auszuführen wie man möchte",
+      "Die Freiheit, das Programm zu verbessern"
     ],
     "answer": [
-      "The execute bit should be set in the file\u2019s permissions."
+      "Die Freiheit, das Programm auszuführen wie man möchte"
     ]
   },
   {
     "id": 24,
-    "question": "Which of the following commands sorts the output of the command export-logs?",
+    "question": "Was ist die Freiheit 1 nach Richard Stallman?",
     "options": [
-      "export-logs < sort",
-      "export-logs & sort",
-      "export-logs <> sort",
-      "export-logs | sort",
-      "export-logs > sort"
+      "Die Freiheit, das Programm zu redistribuieren",
+      "Die Freiheit, das Programm zu verbessern",
+      "Die Freiheit, das Programm auszuführen wie man möchte",
+      "Die Freiheit, die Funktionsweise des Programms zu untersuchen und anzupassen"
     ],
     "answer": [
-      "export-logs | sort"
+      "Die Freiheit, die Funktionsweise des Programms zu untersuchen und anzupassen"
     ]
   },
   {
     "id": 25,
-    "question": "What is a Linux distribution?",
+    "question": "Was ist die Freiheit 2 nach Richard Stallman?",
     "options": [
-      "A set of changes to Linux which enable Linux to run on another processor architecture.",
-      "An operating system based on Linux but incompatible to the regular Linux kernel.",
-      "The Linux file system as seen from the root account after mounting all file systems.",
-      "The set of rules which governs the distribution of Linux kernel source code.",
-      "A bundling of the Linux kernel, system utilities and other software."
+      "Die Freiheit, das Programm zu verändern",
+      "Die Freiheit, das Programm zu redistribuieren",
+      "Die Freiheit, das Programm auszuführen wie man möchte",
+      "Die Freiheit, das Programm zu verbessern"
     ],
     "answer": [
-      "A bundling of the Linux kernel, system utilities and other software."
+      "Die Freiheit, das Programm zu redistribuieren"
     ]
   },
   {
     "id": 26,
-    "question": "Where is the operating system of a Raspberry Pi stored?",
+    "question": "Was ist die Freiheit 3 nach Richard Stallman?",
     "options": [
-      "On a removable SD card which is put into the Raspberry Pi.",
-      "On rewritable flash storage which is built into the Raspberry Pi.",
-      "On a read only partition on the Raspberry Pi\u2019s firmware, next to the BIOS.",
-      "On the master device attached to the Raspberry Pi\u2019s IDE bus.",
-      "On a Linux extension module connected to the Raspberry Pi\u2019s GPIO pins."
+      "Die Freiheit, das Programm zu verändern",
+      "Die Freiheit, das Programm zu redistribuieren",
+      "Die Freiheit, das Programm auszuführen wie man möchte",
+      "Die Freiheit, das Programm zu verbessern und diese Verbesserungen der Öffentlichkeit freizugeben"
     ],
     "answer": [
-      "On a removable SD card which is put into the Raspberry Pi."
+      "Die Freiheit, das Programm zu verbessern und diese Verbesserungen der Öffentlichkeit freizugeben"
     ]
   },
   {
     "id": 27,
-    "question": "Which of the following programs is a graphical editor for vector graphics?",
+    "question": "Was bedeutet Copyleft?",
     "options": [
-      "NGINX",
-      "Python",
-      "MySQL",
-      "Samba",
-      "Inkscape"
+      "Das Prinzip, dass Software immer kostenlos sein muss",
+      "Das Prinzip, dass Software immer proprietär sein muss",
+      "Das Prinzip, dass veränderte Software unter derselben Lizenz stehen muss",
+      "Das Prinzip, dass Software immer Open Source sein muss"
     ],
     "answer": [
-      "Inkscape"
+      "Das Prinzip, dass veränderte Software unter derselben Lizenz stehen muss"
     ]
   },
   {
     "id": 28,
-    "question": "Which package management tool is used in Red Hat-based Linux Systems?",
+    "question": "Wofür steht die Abkürzung FLOSS?",
     "options": [
-      "rpm",
-      "apt-get",
-      "dpkg",
-      "packagectl",
-      "portage"
+      "Free/Libre Open Source Software",
+      "Free/Libre Open Source Software",
+      "Free Licensed Open Source System",
+      "Free/Libre Open Source System"
     ],
     "answer": [
-      "rpm"
+      "Free/Libre Open Source Software"
     ]
   },
   {
     "id": 29,
-    "question": "Which of the following characters in a shell prompt indicates the shell is running with root privileges?",
+    "question": "Welche Lizenz sollten Sie wählen, um sicherzustellen, dass alle künftigen darauf aufbauenden Ergebnisse frei bleiben?",
     "options": [
-      "*",
-      "&",
-      "$",
-      "#",
-      "!"
+      "CC BY",
+      "GPL v3",
+      "2-Clause BSD License",
+      "LGPL"
     ],
     "answer": [
-      "#"
+      "GPL v3"
     ]
   },
   {
     "id": 30,
-    "question": "Which of the following are typical services offered by public cloud providers? (Choose three.)",
+    "question": "Welche Lizenz ist permissiv?",
     "options": [
-      "Internet as a Service(IaaS)",
-      "Graphics as a Service (GaaS)",
-      "Platform as a Service(PaaS)",
-      "Infrastructure as a Service(IaaS)",
-      "Software as a Service (SaaS)"
+      "GPL v3",
+      "Simplified BSD License",
+      "CC BY-SA",
+      "GNU AGPL"
     ],
     "answer": [
-      "Infrastructure as a Service(IaaS)",
-      "Platform as a Service(PaaS)",
-      "Software as a Service (SaaS)"
+      "Simplified BSD License"
     ]
   },
   {
     "id": 31,
-    "question": "What is defined by a Free Software license?",
+    "question": "Wie können Sie mit einer unter einer freien Lizenz veröffentlichten Webapplikation Geld verdienen?",
     "options": [
-      "Conditions for modifying and distributing the licensed software.",
-      "Details of the technical documentation each contributor has to provide.",
-      "A complete list of libraries required to compile the licensed software.",
-      "The programming languages which may be used to extend the licensed program.",
-      "Limits on the purposes for which the licensed software may be used."
+      "Verkauf von Lizenzen",
+      "Dual licensing",
+      "Verkauf von Hardware",
+      "Verkauf von Werbung"
     ],
     "answer": [
-      "Conditions for modifying and distributing the licensed software."
+      "Dual licensing"
     ]
   },
   {
     "id": 32,
-    "question": "Why are web browser cookies considered dangerous?",
+    "question": "Was sind die 'vier Freiheiten' der Free Software Foundation?",
     "options": [
-      "Cookies store critical data which is lost when a cookie is deleted.",
-      "Cookies are always public and accessible to anyone on the internet.",
-      "Cookies support identification and tracking of users.",
-      "Cookies can contain and execute viruses and malware.",
-      "Cookies consume significant amounts of storage and can exhaust disk space."
+      "Die Software verkaufen",
+      "Die Software ausführen",
+      "Die Software löschen",
+      "Die Software kopieren"
     ],
     "answer": [
-      "Cookies support identification and tracking of users."
+      "Die Software ausführen",
+      "Die Software untersuchen und anpassen",
+      "Die Software redistribuieren",
+      "Die Software verbessern und die Verbesserungen freigeben"
     ]
   },
   {
     "id": 33,
-    "question": "Running the command rm Downloads leads to the following error: rm: cannot remove \u2018Downloads/\u2019: Is a directory Which of the following commands can be used instead to remove Downloads, assuming Downloads is empty? (Choose two.)",
+    "question": "Was ist das wichtigste Werkzeug für Präsentationen unter Linux?",
     "options": [
-      "rmdir Downloads",
-      "rm \u2013r Downloads",
-      "rem Downloads",
-      "dir \u2013r Downloads",
-      "undir Downloads"
+      "Microsoft PowerPoint",
+      "LibreOffice Impress",
+      "Google Slides",
+      "Prezi"
     ],
     "answer": [
-      "rm \u2013r Downloads",
-      "rmdir Downloads"
+      "LibreOffice Impress"
     ]
   },
   {
     "id": 34,
-    "question": "What is true about a recursive directory listing?",
+    "question": "Welche Tastenkombination öffnet ein privates Fenster in Firefox?",
     "options": [
-      "It includes ownership information for the files.",
-      "It includes details of file system internals, such as inodes.",
-      "It includes a preview of content for each file in the directory.",
-      "It includes the content of sub-directories.",
-      "It includes the permissions of the directory listed."
+      "Strg + Shift + N",
+      "Strg + Alt + P",
+      "Strg + Shift + P",
+      "Strg + Alt + N"
     ],
     "answer": [
-      "It includes the content of sub-directories."
+      "Strg + Shift + P"
     ]
   },
   {
     "id": 35,
-    "question": "Which of the following commands are used to get information on the proper use of ls? (Choose two.)",
+    "question": "Was ist Gnome Terminal?",
     "options": [
-      "option ls",
-      "info ls",
-      "usage ls",
-      "manual ls",
-      "man ls"
+      "Ein Webbrowser",
+      "Ein Texteditor",
+      "Ein grafischer Terminalemulator",
+      "Ein Dateimanager"
     ],
     "answer": [
-      "man ls",
-      "info ls"
+      "Ein grafischer Terminalemulator"
     ]
   },
   {
     "id": 36,
-    "question": "Which of the following directories contains information, documentation and example configuration files for installed software packages?",
+    "question": "Was ist ein Hypervisor?",
     "options": [
-      "/usr/share/doc/",
-      "/etc/defaults/",
-      "/var/info/",
-      "/usr/examples/",
-      "/doc/"
+      "Ein Webbrowser",
+      "Ein Passwortmanager",
+      "Eine Software zur Verwaltung virtueller Maschinen",
+      "Ein Texteditor"
     ],
     "answer": [
-      "/usr/share/doc/"
+      "Eine Software zur Verwaltung virtueller Maschinen"
     ]
   },
   {
     "id": 37,
-    "question": "A user is currently in the directory /home/user/Downloads/ and runs the command ls ../Documents/ Assuming it exists, which directory\u2019s content is displayed?",
+    "question": "Was ist das KISS-Prinzip, das Gnome verfolgt?",
     "options": [
-      "/home/user/Documents/Downloads/",
-      "/home/user/Documents/",
-      "/home/user/Downloads/Documents/",
-      "/Documents/",
-      "/home/Documents"
+      "Keep it simple stupid",
+      "Keep it secure and safe",
+      "Keep it stylish and sleek",
+      "Keep it synchronized and stable"
     ],
     "answer": [
-      "/home/user/Documents/"
+      "Keep it simple stupid"
     ]
   },
   {
     "id": 38,
-    "question": "Which of the following commands adds the directory /new/dir/ to the PATH environment variable?",
+    "question": "Was ist OpenStack?",
     "options": [
-      "export PATH=/new/dir: PATH",
-      "PATH=/new/dir: PATH",
-      "export $PATH=/new/dir: $PATH",
-      "$PATH=/new/dir: $PATH",
-      "export PATH=/new/dir: $PATH"
+      "Ein Projekt für den Aufbau von privatem PaaS",
+      "Ein Projekt für den Aufbau von privatem IaaS",
+      "Ein Projekt für den Aufbau von privatem SaaS",
+      "Ein Hypervisor"
     ],
     "answer": [
-      "export PATH=/new/dir: $PATH"
+      "Ein Projekt für den Aufbau von privatem IaaS"
     ]
   },
   {
     "id": 39,
-    "question": "A directory contains the following three files: texts 1.txt texts 2.txt texts 3.csv Which command copies the two files ending in .txt to the /tmp/ directory?",
+    "question": "Welche der folgenden Optionen sind gültige Festplattenverschlüsselungssoftware?",
     "options": [
-      "cp. \\.txt /tmp/",
-      "cp *.txt /tmp/",
-      "cp ?.txt /tmp/",
-      "cp ??.txt /tmp/",
-      "cp $?.txt /tmp/"
+      "RevealJS, EncFS und dm-crypt",
+      "EncFS und dm-crypt",
+      "dm-crypt und KeePass",
+      "EncFS und Bitwarden"
     ],
     "answer": [
-      "cp *.txt /tmp/"
+      "EncFS und dm-crypt"
     ]
   },
   {
     "id": 40,
-    "question": "FILL BLANK When typing a long command line at the shell, what single character can be used to split a command across multiple lines?",
+    "question": "Beamer ist:",
     "options": [
-      "/",
-      "\\"
+      "Ein Verschlüsselungsmechanismus",
+      "Ein LaTeX-Präsentations-Tool",
+      "Ein Hypervisor",
+      "Eine Virtualisierungssoftware"
     ],
     "answer": [
-      "\\"
+      "Ein LaTeX-Präsentations-Tool"
     ]
   },
   {
     "id": 41,
-    "question": "Which of the following DNS record types hold an IP address? (Choose two.)",
+    "question": "Was ist das Wichtigste bei der Verwendung eines Passwortmanagers?",
     "options": [
-      "NS",
-      "AAAA",
-      "MX",
-      "A",
-      "CNAME"
+      "Sich das Master-Passwort zu merken und ein einmaliges Zufallspasswort für jeden Dienst zu verwenden",
+      "Das Master-Passwort regelmäßig zu ändern",
+      "Den Passwortmanager auf mehreren Geräten zu installieren",
+      "Den Passwortmanager regelmäßig zu aktualisieren"
     ],
     "answer": [
-      "AAAA",
-      "A"
+      "Sich das Master-Passwort zu merken und ein einmaliges Zufallspasswort für jeden Dienst zu verwenden"
     ]
   },
   {
     "id": 42,
-    "question": "Which of the following values could be a process ID on Linux?",
+    "question": "Was ist die meistgenutzte Shell unter Linux?",
     "options": [
-      "/bin/bash",
-      "60b503cd-019e-4300-a7be-922f074ef5ce",
-      "/sys/pid/9a14",
-      "fff3",
-      "21398"
+      "C shell",
+      "Bash",
+      "Korn shell",
+      "Z shell"
     ],
     "answer": [
-      "21398"
+      "Bash"
     ]
   },
   {
     "id": 43,
-    "question": "Which of the following is a protocol used for automatic IP address configuration?",
+    "question": "Was zeigt der Prompt `$` an?",
     "options": [
-      "NFS",
-      "LDAP",
-      "SMTP",
-      "DNS",
-      "DHCP"
+      "Superuser Shell",
+      "Fehler in der Shell",
+      "Normale Benutzer Shell",
+      "Shell Typ"
     ],
     "answer": [
-      "DHCP"
+      "Normale Benutzer Shell"
     ]
   },
   {
     "id": 44,
-    "question": "Which of the following devices represents a hard disk partition?",
+    "question": "Welche Shell ist eine erweiterte Version der C shell?",
     "options": [
-      "/dev/ttyS0",
-      "/dev/sata0",
-      "/dev/part0",
-      "/dev/sda2",
-      "/dev/sda/p2"
+      "Bash",
+      "Korn shell",
+      "Z shell",
+      "tcsh"
     ],
     "answer": [
-      "/dev/sda2"
+      "tcsh"
     ]
   },
   {
     "id": 45,
-    "question": "Which of the following statements regarding Linux hardware drivers is correct?",
+    "question": "Was bedeutet das Zeichen `~` im Prompt?",
     "options": [
-      "Drivers are regular Linux programs which have to be run by the user who wants to use a device.",
-      "Drivers are not used by Linux because the BIOS handles all access to hardware on behalf of Linux.",
-      "Drivers are stored on their devices and are copied by the Linux kernel when a new device is attached",
-      "Drivers are downloaded from the vendor's driver repository when a new device is attached.",
-      "Drivers are either compiled into the Linux kernel or are loaded as kernel modules."
+      "Root-Verzeichnis",
+      "Aktuelles Verzeichnis",
+      "Heimatverzeichnis des aktuellen Benutzers",
+      "Shell Typ"
     ],
     "answer": [
-      "Drivers are either compiled into the Linux kernel or are loaded as kernel modules."
+      "Heimatverzeichnis des aktuellen Benutzers"
     ]
   },
   {
     "id": 46,
-    "question": "What can be found in the /proc/ directory?",
+    "question": "Welcher Befehl zeigt den Typ eines bestimmten Befehls an?",
     "options": [
-      "One directory per installed program.",
-      "One directory per installed program.",
-      "One file per existing user account.",
-      "One directory per running process.",
-      "One log file per running service."
+      "echo",
+      "type",
+      "ls",
+      "cd"
     ],
     "answer": [
-      "One directory per running process."
+      "type"
     ]
   },
   {
     "id": 47,
-    "question": "A new server needs to be installed to host services for a period of several years. Throughout this time, the server should receive important\nsecurity updates from its Linux distribution.\nWhich of the following Linux distributions meet these requirements? (Choose two.)",
+    "question": "Was ist die Bash-Shell?",
     "options": [
-      "Ubuntu Linux LTS",
-      "Fedora Linux",
-      "Debian GNU/Linux Unstable",
-      "Ubuntu Linux non-LTS",
-      "Red Hat Enterprise Linux"
+      "Eine Programmiersprache",
+      "Die beliebteste Shell auf Linux-Rechnern",
+      "Ein Texteditor",
+      "Ein Dateisystem"
     ],
     "answer": [
-      "Ubuntu Linux LTS",
-      "Red Hat Enterprise Linux"
+      "Die beliebteste Shell auf Linux-Rechnern"
     ]
   },
   {
     "id": 48,
-    "question": "Which of the following directories must be mounted with read and write access if it resides on its own dedicated file system?",
+    "question": "Welcher Befehl listet den Inhalt eines Verzeichnisses auf?",
     "options": [
-      "/opt",
-      "/lib",
+      "echo",
+      "ls",
+      "type",
+      "touch"
+    ],
+    "answer": [
+      "ls"
+    ]
+  },
+  {
+    "id": 49,
+    "question": "Was macht der Befehl `touch`?",
+    "options": [
+      "Zeigt den Hostnamen an",
+      "Erstellt eine leere Datei oder aktualisiert das Änderungsdatum einer bestehenden Datei",
+      "Listet den Inhalt eines Verzeichnisses auf",
+      "Gibt Text im Terminal aus"
+    ],
+    "answer": [
+      "Erstellt eine leere Datei oder aktualisiert das Änderungsdatum einer bestehenden Datei"
+    ]
+  },
+  {
+    "id": 50,
+    "question": "Wie lautet der Befehl, um den Hostnamen eines Systems anzuzeigen oder zu ändern?",
+    "options": [
+      "ls",
+      "hostname",
+      "echo",
+      "type"
+    ],
+    "answer": [
+      "hostname"
+    ]
+  },
+  {
+    "id": 51,
+    "question": "Was ist ein Shell builtin?",
+    "options": [
+      "Ein externer Befehl",
+      "Ein Befehl, der in die Shell integriert ist",
+      "Ein Dateisystem",
+      "Ein Texteditor"
+    ],
+    "answer": [
+      "Ein Befehl, der in die Shell integriert ist"
+    ]
+  },
+  {
+    "id": 52,
+    "question": "Was sind lokale Variablen?",
+    "options": [
+      "Variablen, die in allen Shell-Sitzungen verfügbar sind",
+      "Variablen, die nur in der aktuellen Shell-Sitzung verfügbar sind",
+      "Variablen, die persistent sind",
+      "Variablen, die nur in Unterprozessen verfügbar sind"
+    ],
+    "answer": [
+      "Variablen, die nur in der aktuellen Shell-Sitzung verfügbar sind"
+    ]
+  },
+  {
+    "id": 53,
+    "question": "Wie erstellt man eine lokale Variable in der Shell?",
+    "options": [
+      "Mit dem Befehl `export`",
+      "Mit dem Befehl `unset`",
+      "Mit dem Operator `=`",
+      "Mit dem Befehl `env`"
+    ],
+    "answer": [
+      "Mit dem Operator `=`"
+    ]
+  },
+  {
+    "id": 54,
+    "question": "Was sind Umgebungsvariablen?",
+    "options": [
+      "Variablen, die nur in der aktuellen Shell-Sitzung verfügbar sind",
+      "Variablen, die persistent sind",
+      "Variablen, die in einer Shell-Sitzung und in Unterprozessen verfügbar sind",
+      "Variablen, die nur in Unterprozessen verfügbar sind"
+    ],
+    "answer": [
+      "Variablen, die in einer Shell-Sitzung und in Unterprozessen verfügbar sind"
+    ]
+  },
+  {
+    "id": 55,
+    "question": "Wie macht man eine lokale Variable zu einer Umgebungsvariablen?",
+    "options": [
+      "Mit dem Befehl `unset`",
+      "Mit dem Befehl `export`",
+      "Mit dem Operator `=`",
+      "Mit dem Befehl `env`"
+    ],
+    "answer": [
+      "Mit dem Befehl `export`"
+    ]
+  },
+  {
+    "id": 56,
+    "question": "Was passiert, wenn eine Shell geschlossen wird?",
+    "options": [
+      "Alle Variablen bleiben erhalten",
+      "Alle Variablen und deren Inhalt gehen verloren",
+      "Nur lokale Variablen gehen verloren",
+      "Nur Umgebungsvariablen gehen verloren"
+    ],
+    "answer": [
+      "Alle Variablen und deren Inhalt gehen verloren"
+    ]
+  },
+  {
+    "id": 57,
+    "question": "Was zeigt der Befehl `env` an?",
+    "options": [
+      "Erzeugt eine Variable",
+      "Zeigt die aktuelle Umgebung an",
+      "Entfernt eine Variable",
+      "Gibt Text aus"
+    ],
+    "answer": [
+      "Zeigt die aktuelle Umgebung an"
+    ]
+  },
+  {
+    "id": 58,
+    "question": "Wie macht man lokale Variablen für Unterprozesse verfügbar?",
+    "options": [
+      "unset",
+      "echo",
+      "env",
+      "export"
+    ],
+    "answer": [
+      "export"
+    ]
+  },
+  {
+    "id": 59,
+    "question": "Was ist der Scope der lokalen Variable `number`?",
+    "options": [
+      "Aktuelle Shell und alle Subshells",
+      "Nur die aktuelle Shell",
+      "Nur die Subshells",
+      "Alle Shells"
+    ],
+    "answer": [
+      "Nur die aktuelle Shell"
+    ]
+  },
+  {
+    "id": 60,
+    "question": "Wie erzeugt man eine Umgebungsvariable `ORDER`?",
+    "options": [
+      "ORDER=desc",
+      "number=5",
+      "export ORDER=desc",
+      "echo ORDER=desc"
+    ],
+    "answer": [
+      "export ORDER=desc"
+    ]
+  },
+  {
+    "id": 61,
+    "question": "Welcher Befehl gibt Text aus?",
+    "options": [
+      "env",
+      "echo",
+      "export",
+      "unset"
+    ],
+    "answer": [
+      "echo"
+    ]
+  },
+  {
+    "id": 62,
+    "question": "Was ist der Zweck des Befehls `man`?",
+    "options": [
+      "Zeigt den Inhalt eines Verzeichnisses",
+      "Zeigt die Manpage eines Befehls",
+      "Zeigt den Inhalt einer Datei",
+      "Zeigt die letzten Zeilen einer Datei"
+    ],
+    "answer": [
+      "Zeigt die Manpage eines Befehls"
+    ]
+  },
+  {
+    "id": 63,
+    "question": "Welche Kategorie von Manpages enthält Benutzerbefehle?",
+    "options": [
+      "Kategorie 2",
+      "Kategorie 3",
+      "Kategorie 1",
+      "Kategorie 5"
+    ],
+    "answer": [
+      "Kategorie 1"
+    ]
+  },
+  {
+    "id": 64,
+    "question": "Wie navigieren Sie durch eine Manpage?",
+    "options": [
+      "Mit den Pfeiltasten und der Leertaste",
+      "Mit den Tasten W und S",
+      "Mit den Tasten A und D",
+      "Mit den Tasten J und K"
+    ],
+    "answer": [
+      "Mit den Pfeiltasten und der Leertaste"
+    ]
+  },
+  {
+    "id": 65,
+    "question": "Welcher Befehl wird verwendet, um eine Datei zu finden, indem eine Datenbank durchsucht wird?",
+    "options": [
+      "find",
+      "grep",
+      "locate",
+      "search"
+    ],
+    "answer": [
+      "locate"
+    ]
+  },
+  {
+    "id": 66,
+    "question": "Was ist der Unterschied zwischen `locate` und `find`?",
+    "options": [
+      "locate durchsucht eine Datenbank, find durchsucht Verzeichnisse rekursiv",
+      "locate durchsucht Verzeichnisse rekursiv, find durchsucht eine Datenbank",
+      "locate zeigt nur versteckte Dateien, find zeigt alle Dateien",
+      "locate zeigt nur Textdateien, find zeigt alle Dateitypen"
+    ],
+    "answer": [
+      "locate durchsucht eine Datenbank, find durchsucht Verzeichnisse rekursiv"
+    ]
+  },
+  {
+    "id": 67,
+    "question": "Was macht der Befehl `ls`?",
+    "options": [
+      "Zeigt den Inhalt eines Verzeichnisses",
+      "Kopiert eine Datei",
+      "Verschiebt eine Datei",
+      "Löscht eine Datei"
+    ],
+    "answer": [
+      "Zeigt den Inhalt eines Verzeichnisses"
+    ]
+  },
+  {
+    "id": 68,
+    "question": "Welcher Befehl durchsucht das Dateisystem nach Namen?",
+    "options": [
+      "man",
+      "info",
+      "locate",
+      "find"
+    ],
+    "answer": [
+      "find"
+    ]
+  },
+  {
+    "id": 69,
+    "question": "Welcher Befehl zeigt die Manpage an?",
+    "options": [
+      "info",
+      "locate",
+      "find",
+      "man"
+    ],
+    "answer": [
+      "man"
+    ]
+  },
+  {
+    "id": 70,
+    "question": "Welcher Befehl wird verwendet, um eine Datei zu erstellen oder den Zeitstempel zu ändern?",
+    "options": [
+      "cp",
+      "mv",
+      "touch",
+      "rm"
+    ],
+    "answer": [
+      "touch"
+    ]
+  },
+  {
+    "id": 71,
+    "question": "Welcher Befehl zeigt die ersten Zeilen einer Datei an?",
+    "options": [
+      "tail",
+      "head",
+      "sort",
+      "grep"
+    ],
+    "answer": [
+      "head"
+    ]
+  },
+  {
+    "id": 72,
+    "question": "Welcher Befehl ändert die Zugriffsrechte einer Datei?",
+    "options": [
+      "chmod",
+      "grep",
+      "tr",
+      "wc"
+    ],
+    "answer": [
+      "chmod"
+    ]
+  },
+  {
+    "id": 73,
+    "question": "Welcher Befehl zeigt den Pfad zu einem angegebenen Programm und den zugehörigen Dokumentationsdateien?",
+    "options": [
+      "whereis",
+      "head",
+      "tail",
+      "sort"
+    ],
+    "answer": [
+      "whereis"
+    ]
+  },
+  {
+    "id": 74,
+    "question": "Was ist der Befehl, um den Inhalt des aktuellen Verzeichnisses aufzulisten?",
+    "options": [
+      "pwd",
+      "ls",
+      "cd",
+      "mkdir"
+    ],
+    "answer": [
+      "ls"
+    ]
+  },
+  {
+    "id": 75,
+    "question": "Welcher Befehl zeigt das aktuelle Arbeitsverzeichnis an?",
+    "options": [
+      "ls",
+      "cd",
+      "pwd",
+      "mkdir"
+    ],
+    "answer": [
+      "pwd"
+    ]
+  },
+  {
+    "id": 76,
+    "question": "Wie nennt man das Verzeichnis, das ein anderes Verzeichnis enthält?",
+    "options": [
+      "Unterverzeichnis",
+      "Elternverzeichnis",
+      "Arbeitsverzeichnis",
+      "Root-Verzeichnis"
+    ],
+    "answer": [
+      "Elternverzeichnis"
+    ]
+  },
+  {
+    "id": 77,
+    "question": "Welches Zeichen repräsentiert das Heimatverzeichnis des Benutzers?",
+    "options": [
+      "/",
+      "..",
+      ".",
+      "~"
+    ],
+    "answer": [
+      "~"
+    ]
+  },
+  {
+    "id": 78,
+    "question": "Was bedeutet das Suffix .txt in einem Dateinamen unter Linux?",
+    "options": [
+      "Es hat keine besondere Bedeutung",
+      "Es zeigt eine ausführbare Datei an",
+      "Es zeigt eine binäre Datei an",
+      "Es zeigt eine versteckte Datei an"
+    ],
+    "answer": [
+      "Es hat keine besondere Bedeutung"
+    ]
+  },
+  {
+    "id": 79,
+    "question": "Was zeigt der Befehl `pwd` an?",
+    "options": [
+      "Wechselt das aktuelle Verzeichnis",
+      "Zeigt den Pfad des aktuellen Verzeichnisses",
+      "Listet den Inhalt eines Verzeichnisses auf",
+      "Erstellt ein neues Verzeichnis"
+    ],
+    "answer": [
+      "Zeigt den Pfad des aktuellen Verzeichnisses"
+    ]
+  },
+  {
+    "id": 80,
+    "question": "Welcher Befehl wird verwendet, um ein neues Verzeichnis zu erstellen?",
+    "options": [
+      "pwd",
+      "ls",
+      "mkdir",
+      "cd"
+    ],
+    "answer": [
+      "mkdir"
+    ]
+  },
+  {
+    "id": 81,
+    "question": "Wie lautet der Befehl, um ins Verzeichnis `/etc/network` zu wechseln?",
+    "options": [
+      "cd /home/user/Documents",
+      "cd /etc/udev",
+      "cd /etc/network",
+      "cd /home/lost+found"
+    ],
+    "answer": [
+      "cd /etc/network"
+    ]
+  },
+  {
+    "id": 82,
+    "question": "Welcher Befehl listet alle Dateien und Verzeichnisse auf, einschließlich versteckter Dateien?",
+    "options": [
+      "pwd",
+      "ls -a",
+      "cd",
+      "mkdir"
+    ],
+    "answer": [
+      "ls -a"
+    ]
+  },
+  {
+    "id": 83,
+    "question": "Was bedeutet der relative Pfad `..`?",
+    "options": [
+      "Aktuelles Verzeichnis",
+      "Übergeordnetes Verzeichnis",
+      "Root-Verzeichnis",
+      "Home-Verzeichnis"
+    ],
+    "answer": [
+      "Übergeordnetes Verzeichnis"
+    ]
+  },
+  {
+    "id": 84,
+    "question": "Was repräsentiert das Zeichen `~` in einer Linux-Terminalsitzung?",
+    "options": [
+      "Das Root-Verzeichnis",
+      "Das aktuelle Verzeichnis",
+      "Das Heimatverzeichnis",
+      "Das temporäre Verzeichnis"
+    ],
+    "answer": [
+      "Das Heimatverzeichnis"
+    ]
+  },
+  {
+    "id": 85,
+    "question": "Welcher Befehl zeigt versteckte Dateien und Verzeichnisse an?",
+    "options": [
+      "ls -l",
+      "ls -h",
+      "ls -a",
+      "ls -R"
+    ],
+    "answer": [
+      "ls -a"
+    ]
+  },
+  {
+    "id": 86,
+    "question": "Was bedeutet die Option `-l` beim Befehl `ls`?",
+    "options": [
+      "Zeigt nur Verzeichnisse",
+      "Zeigt versteckte Dateien",
+      "Erstellt eine lange Liste",
+      "Sortiert nach Dateigröße"
+    ],
+    "answer": [
+      "Erstellt eine lange Liste"
+    ]
+  },
+  {
+    "id": 87,
+    "question": "Welcher Befehl wechselt ins Heimatverzeichnis eines Benutzers?",
+    "options": [
+      "cd /home",
+      "cd ..",
+      "cd ~",
+      "cd /"
+    ],
+    "answer": [
+      "cd ~"
+    ]
+  },
+  {
+    "id": 88,
+    "question": "Was ist der Filesystem Hierarchy Standard (FHS)?",
+    "options": [
+      "Ein Dateisystem für Windows",
+      "Ein Standard für die Position von Dateien und Verzeichnissen",
+      "Ein Netzwerkprotokoll",
+      "Ein Linux-Kernel-Modul"
+    ],
+    "answer": [
+      "Ein Standard für die Position von Dateien und Verzeichnissen"
+    ]
+  },
+  {
+    "id": 89,
+    "question": "Was bedeutet die Option `-a` beim `ls` Befehl?",
+    "options": [
+      "Zeigt nur Verzeichnisse an",
+      "Zeigt Dateigrößen in menschenlesbarem Format an",
+      "Zeigt alle Dateien und Verzeichnisse an, einschließlich versteckter",
+      "Sortiert nach Dateigröße"
+    ],
+    "answer": [
+      "Zeigt alle Dateien und Verzeichnisse an, einschließlich versteckter"
+    ]
+  },
+  {
+    "id": 90,
+    "question": "Wie wechselt man ins Verzeichnis `network` unabhängig vom aktuellen Standort?",
+    "options": [
+      "cd ~/network",
+      "cd /home/network",
+      "cd /etc/network",
+      "cd /root/network"
+    ],
+    "answer": [
+      "cd /etc/network"
+    ]
+  },
+  {
+    "id": 91,
+    "question": "Was zeigt der Befehl `ls -lh` an?",
+    "options": [
+      "Zeigt alle Dateien und Verzeichnisse an, einschließlich versteckter",
+      "Zeigt Dateigrößen in menschenlesbarem Format an",
+      "Zeigt nur Verzeichnisse an",
+      "Sortiert nach Dateigröße"
+    ],
+    "answer": [
+      "Zeigt Dateigrößen in menschenlesbarem Format an"
+    ]
+  },
+  {
+    "id": 92,
+    "question": "Welcher Befehl listet alle Unterverzeichnisse einschließlich versteckter auf?",
+    "options": [
+      "ls -l",
+      "ls -a",
+      "ls -ad */",
+      "ls -lh"
+    ],
+    "answer": [
+      "ls -ad */"
+    ]
+  },
+  {
+    "id": 93,
+    "question": "Was ist ein Alias in Linux?",
+    "options": [
+      "Ein Verzeichnis",
+      "Ein Dateityp",
+      "Ein Befehl",
+      "Eine Abkürzung für häufig verwendete Befehle"
+    ],
+    "answer": [
+      "Eine Abkürzung für häufig verwendete Befehle"
+    ]
+  },
+  {
+    "id": 94,
+    "question": "Was ist der Befehl zum Erstellen eines Verzeichnisses in Linux?",
+    "options": [
+      "touch",
+      "mkdir",
+      "rm",
+      "mv"
+    ],
+    "answer": [
+      "mkdir"
+    ]
+  },
+  {
+    "id": 95,
+    "question": "Welcher Befehl zeigt das aktuelle Verzeichnis an?",
+    "options": [
+      "ls",
+      "cd",
+      "pwd",
+      "echo"
+    ],
+    "answer": [
+      "pwd"
+    ]
+  },
+  {
+    "id": 96,
+    "question": "Wie erstellt man eine leere Datei in Linux?",
+    "options": [
+      "mkdir",
+      "cp",
+      "touch",
+      "mv"
+    ],
+    "answer": [
+      "touch"
+    ]
+  },
+  {
+    "id": 97,
+    "question": "Welcher Befehl wird verwendet, um Dateien zu löschen?",
+    "options": [
+      "mkdir",
+      "rm",
+      "cp",
+      "mv"
+    ],
+    "answer": [
+      "rm"
+    ]
+  },
+  {
+    "id": 98,
+    "question": "Was bedeutet das Zeichen * in der Shell?",
+    "options": [
+      "Entspricht genau einem Zeichen",
+      "Entspricht einer Klasse von Zeichen",
+      "Entspricht einer beliebigen Anzahl von Zeichen",
+      "Entspricht einem Leerzeichen"
+    ],
+    "answer": [
+      "Entspricht einer beliebigen Anzahl von Zeichen"
+    ]
+  },
+  {
+    "id": 99,
+    "question": "Was bewirkt die Option -i bei vielen Linux-Befehlen?",
+    "options": [
+      "Ignoriert Fehler",
+      "Fordert zur Bestätigung auf",
+      "Führt den Befehl im Hintergrund aus",
+      "Zeigt eine detaillierte Ausgabe"
+    ],
+    "answer": [
+      "Fordert zur Bestätigung auf"
+    ]
+  },
+  {
+    "id": 100,
+    "question": "Welcher Befehl wird verwendet, um Dateien oder Verzeichnisse zu kopieren?",
+    "options": [
+      "mv",
+      "cp",
+      "rm",
+      "mkdir"
+    ],
+    "answer": [
+      "cp"
+    ]
+  }
+]
+[
+  {
+    "id": 101,
+    "question": "Was bewirkt die Option -r bei vielen Linux-Befehlen?",
+    "options": [
+      "Führt den Befehl im Hintergrund aus",
+      "Wendet den Befehl rekursiv auf ein Verzeichnis und alles darin an",
+      "Ignoriert Fehler",
+      "Zeigt eine detaillierte Ausgabe"
+    ],
+    "answer": [
+      "Wendet den Befehl rekursiv auf ein Verzeichnis und alles darin an"
+    ]
+  },
+  {
+    "id": 102,
+    "question": "Welcher Befehl wird verwendet, um das aktuelle Arbeitsverzeichnis auszugeben?",
+    "options": [
+      "ls",
+      "pwd",
+      "cd",
+      "echo"
+    ],
+    "answer": [
+      "pwd"
+    ]
+  },
+  {
+    "id": 103,
+    "question": "Welcher Befehl wird verwendet, um neue Verzeichnisse zu erstellen?",
+    "options": [
+      "rm",
+      "mkdir",
+      "mv",
+      "cp"
+    ],
+    "answer": [
+      "mkdir"
+    ]
+  },
+  {
+    "id": 104,
+    "question": "Was ist der Zweck der Komprimierung?",
+    "options": [
+      "Daten zu verschlüsseln",
+      "Den Platzbedarf für einen Datensatz zu reduzieren",
+      "Daten zu duplizieren",
+      "Daten zu löschen"
+    ],
+    "answer": [
+      "Den Platzbedarf für einen Datensatz zu reduzieren"
+    ]
+  },
+  {
+    "id": 105,
+    "question": "Welche Komprimierungswerkzeuge sind verlustfrei?",
+    "options": [
+      "JPEG, MP3, MPEG",
+      "bzip2, gzip, xz",
+      "PNG, FLAC, ALAC",
+      "RAR, ZIP, 7z"
+    ],
+    "answer": [
+      "bzip2, gzip, xz"
+    ]
+  },
+  {
+    "id": 106,
+    "question": "Was ist das gebräuchlichste Werkzeug zur Archivierung von Dateien auf Linux-Systemen?",
+    "options": [
+      "zip",
+      "tar",
+      "rar",
+      "7z"
+    ],
+    "answer": [
+      "tar"
+    ]
+  },
+  {
+    "id": 107,
+    "question": "Welche Option wird verwendet, um ein neues Archiv mit tar zu erstellen?",
+    "options": [
+      "-x",
+      "-t",
+      "-c",
+      "-r"
+    ],
+    "answer": [
+      "-c"
+    ]
+  },
+  {
+    "id": 108,
+    "question": "Welche Dateierweiterung wird für gzip-komprimierte tar-Archive verwendet?",
+    "options": [
+      ".tar.bz2",
+      ".tar.gz",
+      ".tar.xz",
+      ".zip"
+    ],
+    "answer": [
+      ".tar.gz"
+    ]
+  },
+  {
+    "id": 109,
+    "question": "Was ist das meistgenutzte Archivierungswerkzeug unter Linux?",
+    "options": [
+      "gzip",
+      "tar",
+      "zip",
+      "xz"
+    ],
+    "answer": [
+      "tar"
+    ]
+  },
+  {
+    "id": 110,
+    "question": "Welcher Befehl wird verwendet, um eine mit gzip komprimierte Datei zu dekomprimieren?",
+    "options": [
+      "bunzip2",
+      "unxz",
+      "gunzip",
+      "unzip"
+    ],
+    "answer": [
+      "gunzip"
+    ]
+  },
+  {
+    "id": 111,
+    "question": "Welche tar-Option wird verwendet, um Dateien zu extrahieren?",
+    "options": [
+      "c",
+      "t",
+      "u",
+      "x"
+    ],
+    "answer": [
+      "x"
+    ]
+  },
+  {
+    "id": 112,
+    "question": "Welches Tool wird verwendet, um ZIP-Dateien zu erstellen und zu extrahieren?",
+    "options": [
+      "tar",
+      "gzip",
+      "zip",
+      "xz"
+    ],
+    "answer": [
+      "zip"
+    ]
+  },
+  {
+    "id": 113,
+    "question": "Welcher Befehl gibt den Inhalt einer mit bzip komprimierten Datei aus?",
+    "options": [
+      "bunzip2",
+      "bzcat",
+      "zcat",
+      "unxz"
+    ],
+    "answer": [
+      "bzcat"
+    ]
+  },
+  {
+    "id": 114,
+    "question": "Was ist der Standardkanal für die Standardeingabe?",
+    "options": [
+      "Kanal 1",
+      "Kanal 0",
+      "Kanal 2",
+      "Kanal 3"
+    ],
+    "answer": [
+      "Kanal 0"
+    ]
+  },
+  {
+    "id": 115,
+    "question": "Welcher Operator wird verwendet, um die Standardausgabe in eine Datei umzuleiten?",
+    "options": [
+      "<",
+      ">",
+      "2>",
+      ">>"
+    ],
+    "answer": [
+      ">"
+    ]
+  },
+  {
+    "id": 116,
+    "question": "Wie wird die Standardfehlerausgabe umgeleitet?",
+    "options": [
+      ">",
+      "<",
+      "2>",
+      ">>"
+    ],
+    "answer": [
+      "2>"
+    ]
+  },
+  {
+    "id": 117,
+    "question": "Welcher Befehl zeigt den Inhalt einer Datei auf dem Bildschirm an?",
+    "options": [
+      "echo",
+      "cat",
+      "tr",
+      "sort"
+    ],
+    "answer": [
+      "cat"
+    ]
+  },
+  {
+    "id": 118,
+    "question": "Was macht der Operator >>?",
+    "options": [
+      "Überschreibt eine Datei",
+      "Erstellt eine neue Datei",
+      "Fügt Text am Ende einer Datei hinzu",
+      "Leitet die Standardeingabe um"
+    ],
+    "answer": [
+      "Fügt Text am Ende einer Datei hinzu"
+    ]
+  },
+  {
+    "id": 119,
+    "question": "Was ist /dev/null?",
+    "options": [
+      "Ein Verzeichnis",
+      "Ein Daten-Mülleimer",
+      "Ein Texteditor",
+      "Ein Dateisystem"
+    ],
+    "answer": [
+      "Ein Daten-Mülleimer"
+    ]
+  },
+  {
+    "id": 120,
+    "question": "Was macht der Befehl `cut`?",
+    "options": [
+      "Zeigt Dateien an oder verknüpft sie",
+      "Entfernt Abschnitte aus jeder Zeile einer Datei",
+      "Zeigt die ersten 10 Zeilen einer Datei an",
+      "Zeigt eine Datei seitenweise an"
+    ],
+    "answer": [
+      "Entfernt Abschnitte aus jeder Zeile einer Datei"
+    ]
+  },
+  {
+    "id": 121,
+    "question": "Welcher Befehl zeigt die letzten 10 Zeilen einer Datei an?",
+    "options": [
+      "head",
+      "tail",
+      "less",
+      "cat"
+    ],
+    "answer": [
+      "tail"
+    ]
+  },
+  {
+    "id": 122,
+    "question": "Wie sortiert man den Inhalt einer Datei alphabetisch umgekehrt?",
+    "options": [
+      "sort -n",
+      "sort -r",
+      "sort -u",
+      "sort -f"
+    ],
+    "answer": [
+      "sort -r"
+    ]
+  },
+  {
+    "id": 123,
+    "question": "Welcher Befehl zählt die Anzahl der Wörter in einer Datei?",
+    "options": [
+      "cut",
+      "wc",
+      "find",
+      "tail"
+    ],
+    "answer": [
+      "wc"
+    ]
+  },
+  {
+    "id": 124,
+    "question": "Wie zeigt man die ersten 5 Zeilen einer Datei an?",
+    "options": [
+      "tail -n 5",
+      "head -n 5",
+      "less -n 5",
+      "cat -n 5"
+    ],
+    "answer": [
+      "head -n 5"
+    ]
+  },
+  {
+    "id": 125,
+    "question": "Was bedeutet 'grep'?",
+    "options": [
+      "global regular expression print",
+      "global regular expression parse",
+      "global regular expression pattern",
+      "global regular expression process"
+    ],
+    "answer": [
+      "global regular expression print"
+    ]
+  },
+  {
+    "id": 126,
+    "question": "Welche Option macht die Suche mit 'grep' case-insensitiv?",
+    "options": [
+      "-r",
+      "-c",
+      "-v",
+      "-i"
+    ],
+    "answer": [
+      "-i"
+    ]
+  },
+  {
+    "id": 127,
+    "question": "Welche Option zählt die Anzahl der Treffer bei der Suche mit 'grep'?",
+    "options": [
+      "-r",
+      "-c",
+      "-v",
+      "-i"
+    ],
+    "answer": [
+      "-c"
+    ]
+  },
+  {
+    "id": 128,
+    "question": "Welche Metazeichen in regulären Ausdrücken entsprechen dem Zeilenanfang und dem Zeilenende?",
+    "options": [
+      "^ und $",
+      ". und *",
+      "[ und ]",
+      "+ und ?"
+    ],
+    "answer": [
+      "^ und $"
+    ]
+  },
+  {
+    "id": 129,
+    "question": "Welche Option aktiviert erweiterte reguläre Ausdrücke in 'grep'?",
+    "options": [
+      "-i",
+      "-r",
+      "-E",
+      "-v"
+    ],
+    "answer": [
+      "-E"
+    ]
+  },
+  {
+    "id": 130,
+    "question": "Was macht der Befehl `grep`?",
+    "options": [
+      "Er ersetzt Zeichen in einer Datei",
+      "Er sucht nach Zeichen oder Zeichenketten in einer Datei",
+      "Er kopiert Dateien",
+      "Er verschiebt Dateien"
+    ],
+    "answer": [
+      "Er sucht nach Zeichen oder Zeichenketten in einer Datei"
+    ]
+  },
+  {
+    "id": 131,
+    "question": "Welcher Befehl wird verwendet, um Zeichen oder Zeichenfolgen in einer Datei zu suchen und zu ersetzen?",
+    "options": [
+      "awk",
+      "sed",
+      "grep",
+      "find"
+    ],
+    "answer": [
+      "sed"
+    ]
+  },
+  {
+    "id": 132,
+    "question": "Wie sucht man mit `grep` nach Zeilen, die mit mindestens einem `e` enden?",
+    "options": [
+      "grep '^e+'",
+      "grep 'e+$'",
+      "grep 'e*'$",
+      "grep '^e*$'"
+    ],
+    "answer": [
+      "grep 'e+$'"
+    ]
+  },
+  {
+    "id": 133,
+    "question": "Wie zählt man die Anzahl der Zeilen, die mit einem oder keinem `c` beginnen, gefolgt von der Zeichenkette `ati`?",
+    "options": [
+      "grep -c '^ati'",
+      "grep -cE '^c?ati'",
+      "grep -c 'ati$'",
+      "grep -c '^cati'"
+    ],
+    "answer": [
+      "grep -cE '^c?ati'"
+    ]
+  },
+  {
+    "id": 134,
+    "question": "Wie sucht man mit `grep` nach Zeilen, die die Zeichenfolge `cat` enthalten?",
+    "options": [
+      "grep '^cat'",
+      "grep 'cat$'",
+      "grep 'cat'",
+      "grep '^cat$'"
+    ],
+    "answer": [
+      "grep 'cat'"
+    ]
+  },
+  {
+    "id": 135,
+    "question": "Was ist ein Skript?",
+    "options": [
+      "Eine ausführbare Datei mit Befehlen",
+      "Ein Texteditor",
+      "Ein Verzeichnis",
+      "Ein Dateityp"
+    ],
+    "answer": [
+      "Eine ausführbare Datei mit Befehlen"
+    ]
+  },
+  {
+    "id": 136,
+    "question": "Wie macht man eine Datei ausführbar?",
+    "options": [
+      "Mit dem Befehl `chmod +x`",
+      "Mit dem Befehl `ls -l`",
+      "Mit dem Befehl `echo $PATH`",
+      "Mit dem Befehl `cat`"
+    ],
+    "answer": [
+      "Mit dem Befehl `chmod +x`"
+    ]
+  },
+  {
+    "id": 137,
+    "question": "Was ist der Zweck der Umgebungsvariable PATH?",
+    "options": [
+      "Verzeichnisse für ausführbare Befehle angeben",
+      "Dateien in einem Verzeichnis auflisten",
+      "Den Inhalt einer Datei anzeigen",
+      "Eine Datei in ein anderes Verzeichnis verschieben"
+    ],
+    "answer": [
+      "Verzeichnisse für ausführbare Befehle angeben"
+    ]
+  },
+  {
+    "id": 138,
+    "question": "Was ist ein Shebang?",
+    "options": [
+      "Eine Zeile, die den Interpreter angibt",
+      "Ein Kommentar im Skript",
+      "Ein Dateiname",
+      "Ein Verzeichnis"
+    ],
+    "answer": [
+      "Eine Zeile, die den Interpreter angibt"
+    ]
+  },
+  {
+    "id": 139,
+    "question": "Wie weist man einer Variablen in Bash einen Wert zu?",
+    "options": [
+      "Mit dem Gleichheitszeichen ohne Leerzeichen",
+      "Mit doppelten Anführungszeichen",
+      "Mit dem Befehl `echo`",
+      "Mit dem Befehl `cat`"
+    ],
+    "answer": [
+      "Mit dem Gleichheitszeichen ohne Leerzeichen"
+    ]
+  },
+  {
+    "id": 140,
+    "question": "Was macht der Befehl `echo`?",
+    "options": [
+      "Ändert die Berechtigungen einer Datei",
+      "Druckt eine Zeichenkette in die Standardausgabe",
+      "Gibt den absoluten Pfad eines Befehls aus",
+      "Druckt alle Umgebungsvariablen in die Standardausgabe"
+    ],
+    "answer": [
+      "Druckt eine Zeichenkette in die Standardausgabe"
+    ]
+  },
+  {
+    "id": 141,
+    "question": "Welcher Befehl gibt den absoluten Pfad eines Befehls aus?",
+    "options": [
+      "chmod",
+      "which",
+      "env",
+      "echo"
+    ],
+    "answer": [
+      "which"
+    ]
+  },
+  {
+    "id": 142,
+    "question": "Was enthält die Variable `$PATH`?",
+    "options": [
+      "Die Anzahl der an das Skript übergebenen Argumente",
+      "Die Verzeichnisse mit ausführbaren Dateien, die vom System verwendet werden",
+      "Positionsargumente, die an das Skript übergeben werden",
+      "Die aktuelle Shell"
+    ],
+    "answer": [
+      "Die Verzeichnisse mit ausführbaren Dateien, die vom System verwendet werden"
+    ]
+  },
+  {
+    "id": 143,
+    "question": "Was bedeutet der Operator `-lt`?",
+    "options": [
+      "Größer als",
+      "Nicht gleich",
+      "Kleiner als",
+      "Größer oder gleich"
+    ],
+    "answer": [
+      "Kleiner als"
+    ]
+  },
+  {
+    "id": 144,
+    "question": "Welcher Befehl kombiniert den aktuellen Wert von `$PATH` mit einem neuen Verzeichnis?",
+    "options": [
+      "PATH=~/scripts",
+      "PATH=$PATH:~/scripts",
+      "PATH=$new_path",
+      "PATH=$PATH~/scripts"
+    ],
+    "answer": [
+      "PATH=$PATH:~/scripts"
+    ]
+  },
+  {
+    "id": 145,
+    "question": "Was ist ein Shebang?",
+    "options": [
+      "Ein Kommentar im Skript",
+      "Ein Befehl zum Beenden des Skripts",
+      "Ein Befehl zum Ausführen des Skripts",
+      "Eine Zeile, die den Pfad zum Interpreter definiert"
+    ],
+    "answer": [
+      "Eine Zeile, die den Pfad zum Interpreter definiert"
+    ]
+  }
+]
+[
+  {
+    "id": 146,
+    "question": "Was macht die Variable `$#` in einem Bash-Skript?",
+    "options": [
+      "Speichert den Namen des Skripts",
+      "Speichert die Anzahl der Argumente",
+      "Speichert die Anzahl der Zeilen im Skript",
+      "Speichert den letzten Exit-Code"
+    ],
+    "answer": [
+      "Speichert die Anzahl der Argumente"
+    ]
+  },
+  {
+    "id": 147,
+    "question": "Was ist der Zweck des Befehls `shift` in einem Bash-Skript?",
+    "options": [
+      "Entfernt das letzte Element des Arrays",
+      "Entfernt das erste Element des Arrays",
+      "Fügt ein Element zum Array hinzu",
+      "Sortiert das Array"
+    ],
+    "answer": [
+      "Entfernt das erste Element des Arrays"
+    ]
+  },
+  {
+    "id": 148,
+    "question": "Was bedeutet ein Exit-Code von `0` in einem Bash-Skript?",
+    "options": [
+      "Ein Fehler ist aufgetreten",
+      "Das Skript wurde abgebrochen",
+      "Das Skript wurde erfolgreich ausgeführt",
+      "Das Skript hat keine Argumente erhalten"
+    ],
+    "answer": [
+      "Das Skript wurde erfolgreich ausgeführt"
+    ]
+  },
+  {
+    "id": 149,
+    "question": "Wie überprüft man in einem Bash-Skript, ob ein Argument nur Buchstaben enthält?",
+    "options": [
+      "Mit dem Befehl `cat`",
+      "Mit dem Befehl `ls`",
+      "Mit dem Befehl `grep`",
+      "Mit dem Befehl `echo`"
+    ],
+    "answer": [
+      "Mit dem Befehl `grep`"
+    ]
+  },
+  {
+    "id": 150,
+    "question": "Was macht der Befehl `shift` in einem Skript?",
+    "options": [
+      "Erhöht den Wert einer Variablen",
+      "Entfernt das erste Element eines Arrays",
+      "Fügt ein Element zu einem Array hinzu",
+      "Beendet das Skript"
+    ],
+    "answer": [
+      "Entfernt das erste Element eines Arrays"
+    ]
+  },
+  {
+    "id": 151,
+    "question": "Was enthält die spezielle Variable `$?`?",
+    "options": [
+      "Den Namen des Skripts",
+      "Den Exit Code des zuletzt ausgeführten Befehls",
+      "Die Anzahl der Argumente",
+      "Den Pfad zum Skript"
+    ],
+    "answer": [
+      "Den Exit Code des zuletzt ausgeführten Befehls"
+    ]
+  },
+  {
+    "id": 152,
+    "question": "Was ist der Zweck des Skripts `script2.sh`?",
+    "options": [
+      "Löscht alle .txt Dateien",
+      "Erstellt Sicherungskopien aller .txt Dateien",
+      "Verschiebt alle .txt Dateien",
+      "Listet alle .txt Dateien auf"
+    ],
+    "answer": [
+      "Erstellt Sicherungskopien aller .txt Dateien"
+    ]
+  },
+  {
+    "id": 153,
+    "question": "Welche Ausgabe erzeugt der Befehl `./script1.sh` ohne Argumente?",
+    "options": [
+      "no cake for you!",
+      "This script requires at least 1 argument.",
+      "here’s your cake!",
+      "Invalid command"
+    ],
+    "answer": [
+      "This script requires at least 1 argument."
+    ]
+  },
+  {
+    "id": 154,
+    "question": "Was macht das folgende Skript? `for i in $@; do echo $i | grep '^[0-9]*$' > /dev/null; if [ $? -eq 0 ]; then if [ $i -gt 10 ]; then echo -n '$i '; fi; fi; done; echo ''`",
+    "options": [
+      "Druckt alle Argumente",
+      "Druckt Argumente, die Zahlen größer als 10 sind",
+      "Druckt Argumente, die Zahlen kleiner als 10 sind",
+      "Druckt nur das erste Argument"
+    ],
+    "answer": [
+      "Druckt Argumente, die Zahlen größer als 10 sind"
+    ]
+  },
+  {
+    "id": 155,
+    "question": "Was ist das Herzstück eines Computers?",
+    "options": [
+      "Anwendung",
+      "Treiber",
+      "Linux Kernel",
+      "Dienst"
+    ],
+    "answer": [
+      "Linux Kernel"
+    ]
+  },
+  {
+    "id": 156,
+    "question": "Welches Betriebssystem basiert auf BSD Unix?",
+    "options": [
+      "Linux",
+      "Windows",
+      "Darwin",
+      "macOS"
+    ],
+    "answer": [
+      "macOS"
+    ]
+  },
+  {
+    "id": 157,
+    "question": "Welche Linux-Distribution ist für große Unternehmen konzipiert?",
+    "options": [
+      "Ubuntu non-LTS",
+      "Fedora",
+      "Arch",
+      "CentOS"
+    ],
+    "answer": [
+      "CentOS"
+    ]
+  },
+  {
+    "id": 158,
+    "question": "Welche Linux-Distribution verwendet ein Rolling-Release-Modell?",
+    "options": [
+      "Red Hat Enterprise Linux",
+      "Ubuntu LTS",
+      "Fedora",
+      "Gentoo"
+    ],
+    "answer": [
+      "Gentoo"
+    ]
+  },
+  {
+    "id": 159,
+    "question": "Wie können Sie die Version des Linux-Kernels ermitteln?",
+    "options": [
+      "ls -l",
+      "uname -r",
+      "pwd",
+      "cd /kernel"
+    ],
+    "answer": [
+      "uname -r"
+    ]
+  },
+  {
+    "id": 160,
+    "question": "Welches Projekt bildet die allen Linux-Distributionen gemeinsame Komponente?",
+    "options": [
+      "CentOS",
+      "Linux Kernel",
+      "Red Hat",
+      "Ubuntu"
+    ],
+    "answer": [
+      "Linux Kernel"
+    ]
+  },
+  {
+    "id": 161,
+    "question": "Welches Betriebssystem wird für macOS von Apple verwendet?",
+    "options": [
+      "OS X",
+      "Darwin",
+      "OSX",
+      "MacOS"
+    ],
+    "answer": [
+      "Darwin"
+    ]
+  },
+  {
+    "id": 162,
+    "question": "Inwiefern unterscheidet sich eine Linux-Distribution vom Linux-Kernel?",
+    "options": [
+      "Der Kernel ist die Linux-Distribution",
+      "Der Kernel ist Teil einer Distribution",
+      "Alle Distributionen, die den gleichen Kernel verwenden, sind gleich",
+      "Die Distribution als Anwendungen, die den Kernel umgeben, um ihn nutzbar zu machen."
+    ],
+    "answer": [
+      "Die Distribution als Anwendungen, die den Kernel umgeben, um ihn nutzbar zu machen."
+    ]
+  },
+  {
+    "id": 163,
+    "question": "Welches der folgenden ist eine Desktop-Umgebung unter Linux?",
+    "options": [
+      "Mint",
+      "Elementary",
+      "Zorin",
+      "Gnome"
+    ],
+    "answer": [
+      "Gnome"
+    ]
+  },
+  {
+    "id": 164,
+    "question": "Welche Komponente eines Betriebssystems erlaubt den Zugriff auf Hardware?",
+    "options": [
+      "Shell",
+      "Treiber",
+      "Dienst",
+      "Anwendung"
+    ],
+    "answer": [
+      "Treiber"
+    ]
+  },
+  {
+    "id": 165,
+    "question": "Was ist die Hauptaufgabe eines Netzteils in einem Computersystem?",
+    "options": [
+      "Umwandlung von Strom in spezifische Spannungen",
+      "Speicherung von Daten",
+      "Verarbeitung von Befehlen",
+      "Kühlung des Systems"
+    ],
+    "answer": [
+      "Umwandlung von Strom in spezifische Spannungen"
+    ]
+  },
+  {
+    "id": 166,
+    "question": "Was ist die Funktion eines Motherboards?",
+    "options": [
+      "Verbindung und Konfiguration von Hardwarekomponenten",
+      "Speicherung von Daten",
+      "Verarbeitung von Befehlen",
+      "Bereitstellung von Strom"
+    ],
+    "answer": [
+      "Verbindung und Konfiguration von Hardwarekomponenten"
+    ]
+  },
+  {
+    "id": 167,
+    "question": "Was ist RAM?",
+    "options": [
+      "Random Access Memory",
+      "Read-Only Memory",
+      "Remote Access Memory",
+      "Rapid Access Memory"
+    ],
+    "answer": [
+      "Random Access Memory"
+    ]
+  },
+  {
+    "id": 168,
+    "question": "Was ist die Aufgabe eines CPU-Caches?",
+    "options": [
+      "Bereitstellung eines schnellen Puffers zwischen CPUs und Systemspeicher",
+      "Speicherung von Daten",
+      "Verarbeitung von Befehlen",
+      "Kühlung des Systems"
+    ],
+    "answer": [
+      "Bereitstellung eines schnellen Puffers zwischen CPUs und Systemspeicher"
+    ]
+  },
+  {
+    "id": 169,
+    "question": "Was ist der Unterschied zwischen HDD und SSD?",
+    "options": [
+      "HDDs haben bewegliche Teile, SSDs nicht",
+      "HDDs sind schneller als SSDs",
+      "HDDs sind teurer als SSDs",
+      "HDDs verbrauchen weniger Strom als SSDs"
+    ],
+    "answer": [
+      "HDDs haben bewegliche Teile, SSDs nicht"
+    ]
+  },
+  {
+    "id": 170,
+    "question": "Was ist ein Prozessor?",
+    "options": [
+      "Eine Art von Speichergerät",
+      "Eine Art von Recheneinheit",
+      "Ein Netzwerkgerät",
+      "Ein Eingabegerät"
+    ],
+    "answer": [
+      "Eine Art von Recheneinheit"
+    ]
+  },
+  {
+    "id": 171,
+    "question": "Welche Komponente hat den größten Einfluss auf die Videobearbeitung?",
+    "options": [
+      "GPU",
+      "CPU-Kerne",
+      "Netzwerkadapter",
+      "Soundkarte"
+    ],
+    "answer": [
+      "GPU"
+    ]
+  },
+  {
+    "id": 172,
+    "question": "Wie lautet der Name der Gerätedatei für die Partition 3 des dritten SATA-Laufwerks?",
+    "options": [
+      "sd3p3",
+      "sdc3",
+      "sdcp3",
+      "sda3"
+    ],
+    "answer": [
+      "sdc3"
+    ]
+  },
+  {
+    "id": 173,
+    "question": "Welches Dateisystem wird für die Boot-Partition verwendet?",
+    "options": [
+      "ext4",
+      "vfat",
+      "ntfs",
+      "btrfs"
+    ],
+    "answer": [
+      "vfat"
+    ]
+  },
+  {
+    "id": 174,
+    "question": "Was ist ein mächtiges Feature von Linux?",
+    "options": [
+      "Alles ist eine Datei",
+      "Alles ist ein Verzeichnis",
+      "Alles ist ein Prozess",
+      "Alles ist ein Kernel"
+    ],
+    "answer": [
+      "Alles ist eine Datei"
+    ]
+  },
+  {
+    "id": 175,
+    "question": "Wo werden wichtige Binärdateien für die Systemadministration gespeichert?",
+    "options": [
+      "/bin",
+      "/sbin",
+      "/usr/bin",
+      "/usr/local/bin"
+    ],
+    "answer": [
+      "/sbin"
+    ]
+  },
+  {
+    "id": 176,
+    "question": "Was speichert die Datei /proc/cpuinfo?",
+    "options": [
+      "Kernelkonfiguration",
+      "Systemhardware",
+      "CPU-Informationen",
+      "Netzwerk-Konfiguration"
+    ],
+    "answer": [
+      "CPU-Informationen"
+    ]
+  },
+  {
+    "id": 177,
+    "question": "Welche Datei enthält die Konfigurationseinstellungen für den Kernel?",
+    "options": [
+      "vmlinuz-4.9.0-9-amd64",
+      "initrd.img-4.9.0-9-amd64",
+      "System-map-4.9.0-9-amd64",
+      "config-4.9.0-9-amd64"
+    ],
+    "answer": [
+      "config-4.9.0-9-amd64"
+    ]
+  },
+  {
+    "id": 178,
+    "question": "Was ist der Zweck der Datei /dev/null?",
+    "options": [
+      "Erzeugt Pseudozufallszahlen",
+      "Verwirft alle Informationen, die dorthin gesendet werden",
+      "Stellt Nullzeichen bereit",
+      "Speichert Kernelmodule"
+    ],
+    "answer": [
+      "Verwirft alle Informationen, die dorthin gesendet werden"
+    ]
+  },
+  {
+    "id": 179,
+    "question": "Wo werden Programme in einem Linux-System gespeichert?",
+    "options": [
       "/etc",
+      "/usr/local",
+      "/home",
+      "/var"
+    ],
+    "answer": [
+      "/usr/local"
+    ]
+  },
+  {
+    "id": 180,
+    "question": "Wo werden Konfigurationsdateien in einem Linux-System gespeichert?",
+    "options": [
+      "/usr/local",
+      "/home",
+      "/var",
+      "/etc"
+    ],
+    "answer": [
+      "/etc"
+    ]
+  },
+  {
+    "id": 181,
+    "question": "Was ist die Aufgabe des Linux-Kernels?",
+    "options": [
+      "Dateien zu löschen",
+      "Netzwerkverbindungen zu verwalten",
+      "Benutzer zu authentifizieren",
+      "Systemressourcen den Prozessen zuzuweisen"
+    ],
+    "answer": [
+      "Systemressourcen den Prozessen zuzuweisen"
+    ]
+  },
+  {
+    "id": 182,
+    "question": "Wo lebt der Linux-Kernel?",
+    "options": [
+      "/usr/bin",
+      "/etc",
+      "/home",
+      "/boot"
+    ],
+    "answer": [
+      "/boot"
+    ]
+  },
+  {
+    "id": 183,
+    "question": "Was speichert das Verzeichnis /proc?",
+    "options": [
+      "Benutzerdaten",
+      "Konfigurationsdateien",
+      "Kernel- und Systemdaten",
+      "Logdateien"
+    ],
+    "answer": [
+      "Kernel- und Systemdaten"
+    ]
+  },
+  {
+    "id": 184,
+    "question": "Was ist RAM?",
+    "options": [
+      "Festplattenspeicher",
+      "Netzwerkspeicher",
+      "Random Access Memory",
+      "Cache-Speicher"
+    ],
+    "answer": [
+      "Random Access Memory"
+    ]
+  },
+  {
+    "id": 185,
+    "question": "Was zeigt der Befehl `top` an?",
+    "options": [
+      "Eine statische Liste aller laufenden Prozesse",
+      "Eine dynamische Liste aller laufenden Prozesse",
+      "Eine Liste aller installierten Pakete",
+      "Eine Liste aller Benutzer"
+    ],
+    "answer": [
+      "Eine dynamische Liste aller laufenden Prozesse"
+    ]
+  },
+  {
+    "id": 186,
+    "question": "Was zeigt der Befehl `ps` an?",
+    "options": [
+      "Dynamische Informationen über Prozesse",
+      "Statische Informationen über Prozesse",
+      "Informationen über installierte Pakete",
+      "Informationen über Benutzer"
+    ],
+    "answer": [
+      "Statische Informationen über Prozesse"
+    ]
+  },
+  {
+    "id": 187,
+    "question": "Welche Taste wird in `top` verwendet, um nach Speicherverbrauch zu sortieren?",
+    "options": [
+      "P",
+      "N",
+      "M",
+      "T"
+    ],
+    "answer": [
+      "M"
+    ]
+  },
+  {
+    "id": 188,
+    "question": "Was ist die PID eines Prozesses?",
+    "options": [
+      "Eine negative ganze Zahl",
+      "Eine fortlaufende Zahl",
+      "Eine positive ganze Zahl",
+      "Eine zufällige Zahl"
+    ],
+    "answer": [
+      "Eine positive ganze Zahl"
+    ]
+  },
+  {
+    "id": 189,
+    "question": "Welcher Befehl zeigt die Systemlast an?",
+    "options": [
+      "uptime",
+      "ps",
+      "top",
+      "dmesg"
+    ],
+    "answer": [
+      "uptime"
+    ]
+  },
+  {
+    "id": 190,
+    "question": "Was ist der Befehl `top`?",
+    "options": [
+      "Zeigt die letzten Zeilen einer Datei an",
+      "Zeigt den Inhalt einer Datei seitenweise an",
+      "Zeigt eine Textzeile oder eine neue Zeile an",
+      "Zeigt dynamisch und interaktiv die laufenden Prozesse des Systems an"
+    ],
+    "answer": [
+      "Zeigt dynamisch und interaktiv die laufenden Prozesse des Systems an"
+    ]
+  },
+  {
+    "id": 191,
+    "question": "Was ist die Funktion des Verzeichnisses `/proc`?",
+    "options": [
+      "Enthält Konfigurationsdateien des Systems",
+      "Enthält Benutzerdateien",
+      "Enthält Verzeichnisse für jeden laufenden Prozess im System, benannt nach der jeweiligen PID",
+      "Enthält Logdateien"
+    ],
+    "answer": [
+      "Enthält Verzeichnisse für jeden laufenden Prozess im System, benannt nach der jeweiligen PID"
+    ]
+  },
+  {
+    "id": 192,
+    "question": "Welcher Befehl liefert eine Momentaufnahme der aktuellen laufenden Prozesse im System?",
+    "options": [
+      "top",
+      "ps",
+      "ls",
+      "grep"
+    ],
+    "answer": [
+      "ps"
+    ]
+  },
+  {
+    "id": 193,
+    "question": "Wo werden Logs traditionell abgelegt?",
+    "options": [
+      "/etc",
+      "/home",
       "/var",
       "/usr"
     ],
@@ -678,472 +2516,679 @@
     ]
   },
   {
-    "id": 49,
-    "question": "The ownership of the file doku.odt should be changed. The new owner is named tux. Which command accomplishes this change?",
+    "id": 194,
+    "question": "Welcher Befehl wird verwendet, um das Journal von systemd zu lesen?",
     "options": [
-      "chmod u=tux doku.odt",
-      "newuser doku.odt tux",
-      "chown tux doku.odt",
-      "transfer tux: doku.odt",
-      "passwd doku.odt:tux"
+      "dmesg",
+      "journalctl",
+      "tail",
+      "cat"
     ],
     "answer": [
-      "chown tux doku.odt"
+      "journalctl"
     ]
   },
   {
-    "id": 50,
-    "question": "What happens to a file residing outside the home directory when the file owner's account is deleted? (Choose two.)",
+    "id": 195,
+    "question": "Was ist die Aufgabe eines Routers?",
     "options": [
-      "During a file system check, the file is moved to /lost +found.",
-      "The file is removed from the file system.",
-      "The UID of the former owner is shown when listing the file's details.",
-      "The user root is set as the new owner of the file.",
-      "Ownership and permissions of the file remain unchanged."
+      "Verbindungen zwischen Geräten herstellen",
+      "Kommunikation zwischen Programmen ermöglichen",
+      "Datenpakete innerhalb eines Netzwerks weiterleiten",
+      "Datenpakete zwischen verschiedenen Netzwerken weiterleiten"
     ],
     "answer": [
-      "The UID of the former owner is shown when listing the file's details.",
-      "Ownership and permissions of the file remain unchanged."
+      "Datenpakete zwischen verschiedenen Netzwerken weiterleiten"
     ]
   },
   {
-    "id": 51,
-    "question": "Which statements about the directory /etc/skel are correct? (Choose two.)",
+    "id": 196,
+    "question": "Was ist eine MAC-Adresse?",
     "options": [
-      "The personal user settings of root are stored in this directory.",
-      "The files from the directory are copied to the home directory of the new user when starting the system.",
-      "The files from the directory are copied to the home directory of a new user when the account is created.",
-      "The directory contains a default set of configuration files used by the useradd command.",
-      "The directory contains the global settings for the Linux system."
+      "Eine globale eindeutige Adresse",
+      "Eine 32-Bit-Adresse",
+      "Eine Adresse für IPv6-Netzwerke",
+      "Eine 48-Bit-Adresse zur Identifizierung von Geräten im Ethernet-Netzwerk"
     ],
     "answer": [
-      "The files from the directory are copied to the home directory of a new user when the account is created.",
-      "The directory contains a default set of configuration files used by the useradd command."
+      "Eine 48-Bit-Adresse zur Identifizierung von Geräten im Ethernet-Netzwerk"
     ]
   },
   {
-    "id": 52,
-    "question": "What is true about links in a Linux file system?",
+    "id": 197,
+    "question": "Was ist die Aufgabe der Verbindungsschicht (Link Layer)?",
     "options": [
-      "A symbolic link can only point to a file and not to a directory.",
-      "A hard link can only point to a directory and never to a file.",
-      "When the target of the symbolic link is moved, the link is automatically updated.",
-      "A symbolic link can point to a file on another file system.",
-      "Only the root user can create hard links."
+      "Ermöglicht die Kommunikation zwischen Programmen",
+      "Steuert das Routing außerhalb einzelner Netzwerke",
+      "Überträgt Informationen zwischen direkt angeschlossenen Geräten",
+      "Verwaltet die globale Adressierung von Geräten"
     ],
     "answer": [
-      "A symbolic link can point to a file on another file system."
+      "Überträgt Informationen zwischen direkt angeschlossenen Geräten"
     ]
   },
   {
-    "id": 53,
-    "question": "Which files are the source of the information in the following output? (Choose two.) uid=1000 (bob) gid=1000 (bob) groups=1000 (bob), 10\n(wheel), 150 (wireshark), 989 (docker), 1001 (libvirt)",
+    "id": 198,
+    "question": "Was ist eine IPv4-Adresse?",
     "options": [
-      "/etc/id",
-      "/etc/passwd",
-      "/etc/group",
-      "/home/index",
-      "/var/db/users"
+      "Eine 48-Bit-Adresse",
+      "Eine Adresse für die Verbindungsschicht",
+      "Eine 128-Bit-Adresse",
+      "Eine 32-Bit-Adresse zur Identifizierung von Geräten im Internet"
     ],
     "answer": [
-      "/etc/passwd",
-      "/etc/group"
+      "Eine 32-Bit-Adresse zur Identifizierung von Geräten im Internet"
     ]
   },
   {
-    "id": 54,
-    "question": "Which of the following tasks can the command passwd accomplish? (Choose two.)",
+    "id": 199,
+    "question": "Was ist eine Subnetzmaske?",
     "options": [
-      "Change a user's username.",
-      "Change a user's password.",
-      "Create a new user account.",
-      "Create a new user group.",
-      "Lock a user account."
+      "Eine Adresse für IPv6-Netzwerke",
+      "Eine Methode zur automatischen Adresskonfiguration",
+      "Eine Möglichkeit, IPv4-Adressen in Netzwerk- und Host-Teile zu unterteilen",
+      "Ein Protokoll zur Datenübertragung"
     ],
     "answer": [
-      "Change a user's password.",
-      "Lock a user account."
+      "Eine Möglichkeit, IPv4-Adressen in Netzwerk- und Host-Teile zu unterteilen"
     ]
   },
   {
-    "id": 55,
-    "question": "What is true about the su command?",
+    "id": 200,
+    "question": "Was ist die Funktion des `ping` Befehls?",
     "options": [
-      "It is the default shell of the root account.",
-      "It can only be used by the user root.",
-      "It runs a shell or command as another user.",
-      "It changes the name of the main administrator account.",
-      "It locks the root account in specific time frames."
+      "Zeigt Informationen zu Sockets an",
+      "Testet die Verbindung zu einem entfernten Gerät",
+      "Konfiguriert Netzwerke unter Linux",
+      "Abfrage von DNS-Informationen"
     ],
     "answer": [
-      "It runs a shell or command as another user."
+      "Testet die Verbindung zu einem entfernten Gerät"
     ]
   },
   {
-    "id": 56,
-    "question": "FILL BLANK -\nWhat parameter of ls prints a recursive listing of a directory's content? (Specify ONLY the option name without any values or parameters.)",
+    "id": 201,
+    "question": "Welcher Befehl wird verwendet, um DNS-Informationen abzufragen und eine komprimierte Ausgabe bereitzustellen?",
     "options": [
-      "The answer is 'ls -R' ;)"
+      "dig",
+      "host",
+      "ip",
+      "ping"
     ],
     "answer": [
-      "The answer is 'ls -R' ;)"
+      "dig"
     ]
   },
   {
-    "id": 57,
-    "question": "Most commands on Linux can display information on their usage. How can this information typically be displayed?",
+    "id": 202,
+    "question": "Welche Option muss der Befehl `ss` haben, um alle eingerichteten UDP Sockets anzuzeigen?",
     "options": [
-      "By running the command with the option /? or /??.",
-      "By running the command with the option ?! or ?=!.",
-      "By running the command with the option /doc or /documentation.",
-      "By running the command with the option -h or --help.",
-      "By running the command with the option -m or --manpage."
+      "-t",
+      "-a",
+      "-u",
+      "-s"
     ],
     "answer": [
-      "By running the command with the option -h or --help."
+      "-u"
     ]
   },
   {
-    "id": 58,
-    "question": "Which of the following commands shows the absolute path to the current working directory?",
+    "id": 203,
+    "question": "Was bewirkt der Befehl `sudo ip -6 route add default via 2001:db8:0:abcd::1`?",
     "options": [
-      "who",
-      "cd ..",
-      "pwd",
-      "ls -l",
-      "cd ~/home"
+      "Er zeigt eine Zusammenfassung aller Sockets",
+      "Er fügt eine Standardroute für IPv6 hinzu",
+      "Er testet die Verbindung zu einem entfernten Gerät",
+      "Er konfiguriert Netzwerkschnittstellen"
     ],
     "answer": [
-      "pwd"
+      "Er fügt eine Standardroute für IPv6 hinzu"
     ]
   },
   {
-    "id": 59,
-    "question": "Which of the following commands output the content of the file Texts 2.txt? (Choose two.)",
+    "id": 204,
+    "question": "Welcher DNS-Record-Typ wird für Text-Daten verwendet?",
     "options": [
-      "cat 'Texts 2.txt'",
-      "cat -- Texts 2.txt",
-      "cat |Texts 2.txt|",
-      "cat 'Texts\\ 2.txt'",
-      "cat Texts\\ 2.txt"
+      "PTR",
+      "CNAME",
+      "MX",
+      "TXT"
     ],
     "answer": [
-      "cat 'Texts 2.txt'",
-      "cat Texts\\ 2.txt"
+      "TXT"
     ]
   },
   {
-    "id": 60,
-    "question": "Which command displays file names only and no additional information?",
+    "id": 205,
+    "question": "Was ist die UID des Superusers in Linux?",
     "options": [
-      "ls -a",
-      "ls -lh",
-      "ls -l",
-      "ls -alh",
-      "ls -nl"
-    ],
-    "answer": [
-      "ls -a"
-    ]
-  },
-  {
-    "id": 61,
-    "question": "What is the purpose of the PATH environment variable?",
-    "options": [
-      "It allows the execution of commands without the need to know the location of the executable.",
-      "It increases security by preventing commands from running in certain locations.",
-      "It specifies the location of a user's home directory.",
-      "It indicates the location of the default shell to be used when a user logs in.",
-      "It contains the absolute path to the current directory."
-    ],
-    "answer": [
-      "It allows the execution of commands without the need to know the location of the executable."
-    ]
-  },
-  {
-    "id": 62,
-    "question": "Which of the following commands sets the variable USERNAME to the value bob?",
-    "options": [
-      "set USERNAME bob",
-      "$USERNAME==bob",
-      "var USERNAME=bob",
-      "USERNAME<=bob",
-      "USERNAME=bob"
-    ],
-    "answer": [
-      "USERNAME=bob"
-    ]
-  },
-  {
-    "id": 63,
-    "question": "What command displays manual pages? (originally a FILL BLANK question)",
-    "options": [
-      "manul",
-      "man",
-      "help -m",
-      "lsman",
-      "info --manual"
-    ],
-    "answer": [
-      "man"
-    ]
-  },
-  {
-    "id": 64,
-    "question": "Which command copies the contents of the directory /etc/, including all sub-directories, to /root/?",
-    "options": [
-      "copy /etc /root",
-      "cp -r /etc/* /root",
-      "cp -v /etc/* /root",
-      "rcp /etc/* /root",
-      "cp -R /etc/*.* /root"
-    ],
-    "answer": [
-      "cp -r /etc/* /root"
-    ]
-  },
-  {
-    "id": 65,
-    "question": "Which of the following commands puts the lines of the file data.csv into alphabetical order?",
-    "options": [
-      "a..z data.csv",
-      "sort data.csv",
-      "abc data.csv",
-      "wc -s data.csv",
-      "grep --sort data.csv"
-    ],
-    "answer": [
-      "sort data.csv"
-    ]
-  },
-  {
-    "id": 66,
-    "question": "Which of the following examples shows the general structure of a for loop in a shell script?",
-    "options": [
-      "for *.txt as file => echo $file",
-      "for *.txt ( echo $i )",
-      "for file in *.txt do echo $i done",
-      "for ls *.txt exec {} \\;",
-      "foreach @{file} { echo $i }"
-    ],
-    "answer": [
-      "for file in *.txt do echo $i done"
-    ]
-  },
-  {
-    "id": 67,
-    "question": "Which operator in a regular expression matches the preceding character either zero or one time?",
-    "options": [
-      "?",
-      "*",
-      "+",
-      "%",
-      "$"
-    ],
-    "answer": [
-      "?"
-    ]
-  },
-  {
-    "id": 68,
-    "question": "The file script.sh in the current directory contains the following content:\n#!/bin/bash\necho $MYVAR\nThe following commands are used to execute this script:\n\n\nMYVAR=value -\n./script.sh\nThe result is an empty line instead of the content of the variable MYVAR. How should MYVAR be set in order to make script.sh display the content\nof MYVAR?",
-    "options": [
-      "!MYVAR=value",
-      "env MYVAR=value",
-      "MYVAR=value",
-      "$MYVAR=value",
-      "export MYVAR=value"
-    ],
-    "answer": [
-      "export MYVAR=value"
-    ]
-  },
-  {
-    "id": 69,
-    "question": "What is the return value of a shell script after successful execution?",
-    "options": [
-      "1",
+      "255",
       "0",
-      "-1",
-      "-255",
-      "255"
+      "1",
+      "-1"
     ],
     "answer": [
       "0"
     ]
   },
   {
-    "id": 70,
-    "question": "Which of the following commands creates the ZIP archive poems.zip containing all files in the current directory whose names end in .txt?",
+    "id": 206,
+    "question": "Welche Datei enthält die grundlegenden Informationen über Benutzer auf einem Linux-System?",
     "options": [
-      "zip *.txt > poems.zip",
-      "zcat *.txt poems.zip",
-      "zip poems.zip *.txt",
-      "zip cfz poems.zip *.txt",
-      "cat *.txt | zip poems.zip"
+      "/etc/shadow",
+      "/etc/passwd",
+      "/etc/sudoers",
+      "/etc/group"
     ],
     "answer": [
-      "zip poems.zip *.txt"
+      "/etc/passwd"
     ]
   },
   {
-    "id": 71,
-    "question": "Which of the following statements are true regarding a typical shell script? (Choose two.)",
+    "id": 207,
+    "question": "Welche Datei speichert die gehashten Passwörter der Benutzer?",
     "options": [
-      "It has the executable permission bit set.",
-      "It starts with the two character sequence #!.",
-      "It is located in /usr/local/scripts/.",
-      "It is located in /etc/bash/scripts/.",
-      "It is compiled into a binary file compatible with the current machine architecture."
+      "/etc/passwd",
+      "/etc/shadow",
+      "/etc/group",
+      "/etc/sudoers"
     ],
     "answer": [
-      "It has the executable permission bit set.",
-      "It starts with the two character sequence #!."
+      "/etc/shadow"
     ]
   },
   {
-    "id": 72,
-    "question": "Which of the following commands extracts the contents of the compressed archive file1.tar.gz?",
+    "id": 208,
+    "question": "Welche Standard-Shell wird in den meisten Linux-Distributionen verwendet?",
     "options": [
-      "tar -czf file1.tar.gz",
-      "ztar file1.tar.gz",
-      "tar -xzf file1.tar.gz",
-      "tar --extract file1.tar.gz",
-      "detar file1.tar.gz"
+      "/bin/ksh",
+      "/bin/bash",
+      "/bin/zsh",
+      "/bin/csh"
     ],
     "answer": [
-      "tar -xzf file1.tar.gz"
+      "/bin/bash"
     ]
   },
   {
-    "id": 73,
-    "question": "Which of the following commands finds all lines in the file operating-systems.txt which contain the term linux, regardless of the case?",
+    "id": 209,
+    "question": "Was ist die Standardgruppe für den Superuser in Linux?",
     "options": [
-      "igrep linux operating-systems.txt",
-      "less -i linux operating-systems.txt",
-      "grep -i linux operating-systems.txt",
-      "cut linux operating-systems.txt",
-      "cut [Ll] [Ii] [Nn] [Uu] [Xx] operating-systems.txt"
+      "users",
+      "adm",
+      "root",
+      "sudo"
     ],
     "answer": [
-      "grep -i linux operating-systems.txt"
+      "root"
     ]
   },
   {
-    "id": 74,
-    "question": "Which one of the following statements concerning Linux passwords is true?",
+    "id": 210,
+    "question": "Was speichert die Datei /etc/passwd?",
     "options": [
-      "All passwords can be decrypted using the system administrator's master password.",
-      "Passwords may never start with a non-letter.",
-      "Users cannot change their password once it has been set.",
-      "Passwords are only stored in hashed form.",
-      "Passwords may be at most six characters long."
+      "Benutzer-Passwort-Hashes",
+      "Systemlokale POSIX-Attribute der Benutzerkonten",
+      "Systemlokale Privilegien-Eskalationsinformationen",
+      "Systemlokale POSIX-Attribute der Gruppenkonten"
     ],
     "answer": [
-      "Passwords are only stored in hashed form."
+      "Systemlokale POSIX-Attribute der Benutzerkonten"
     ]
   },
   {
-    "id": 75,
-    "question": "Which of the following programs are web servers? (Choose two.)",
+    "id": 211,
+    "question": "Welche Datei enthält die systemlokalen Benutzer-Passwort-Hashes?",
     "options": [
-      "Apache",
-      "Postfix",
-      "Curl",
-      "Dovecot",
-      "NGINX"
+      "/etc/passwd",
+      "/etc/group",
+      "/etc/sudoers",
+      "/etc/shadow"
     ],
     "answer": [
-      "Apache",
-      "NGINX"
+      "/etc/shadow"
     ]
   },
   {
-    "id": 76,
-    "question": "Which of the following Linux Distributions is derived from Red Hat Enterprise Linux?",
+    "id": 212,
+    "question": "Welcher Befehl listet die echten (oder effektiven) Benutzer- und Gruppen-IDs auf?",
     "options": [
-      "Raspbian",
-      "openSUSE",
-      "Debian",
-      "Ubuntu",
-      "CentOS"
+      "last",
+      "who",
+      "id",
+      "w"
     ],
     "answer": [
-      "CentOS"
+      "id"
     ]
   },
   {
-    "id": 77,
-    "question": "Which of the following statements is true about Free Software?",
+    "id": 213,
+    "question": "Welche Datei enthält die systemlokalen Privilegien-Eskalationsinformationen?",
     "options": [
-      "It is developed by volunteers only.",
-      "It may be modified by anyone using it.",
-      "It must always be available free of charge.",
-      "It only runs on Linux.",
-      "It is only distributed as a compiled binary."
+      "/etc/passwd",
+      "/etc/group",
+      "/etc/shadow",
+      "/etc/sudoers"
     ],
     "answer": [
-      "It may be modified by anyone using it."
+      "/etc/sudoers"
     ]
   },
   {
-    "id": 78,
-    "question": "How is a new Linux computing instance provisioned in an laaS cloud?",
+    "id": 214,
+    "question": "Welcher Befehl wechselt zu einem anderen Benutzer mit einer Login-Shell?",
     "options": [
-      "The standard Linux installer has to be run through a remote console.",
-      "After buying a Linux distribution, its vendor delivers it to a cloud instance.",
-      "The installation has to be prepared in a local virtual machine which is then copied to the cloud.",
-      "The cloud hosting organization provides a set of pre-prepared images of popular Linux distributions.",
-      "A provider-specific configuration file describing the desired installation is uploaded to the cloud provider."
+      "sudo",
+      "chsh",
+      "su",
+      "chfn"
     ],
     "answer": [
-      "The cloud hosting organization provides a set of pre-prepared images of popular Linux distributions."
+      "su"
     ]
   },
   {
-    "id": 79,
-    "question": "What are the differences between a private web browser window and a regular web browser window? (Choose three.)",
+    "id": 215,
+    "question": "Was ist die Datei `/etc/passwd`?",
     "options": [
-      "Private web browser windows do not allow printing or storing websites.",
-      "Private web browser windows do not store cookies persistently.",
-      "Private web browser windows do not support logins into websites.",
-      "Private web browser windows do not keep records in the browser history.",
-      "Private web browser windows do not send regular stored cookies."
+      "Eine Datei, die verschlüsselte Gruppenpasswörter enthält",
+      "Eine Datei, die grundlegende Informationen über Benutzer enthält",
+      "Eine Datei, die verschlüsselte Benutzerpasswörter enthält",
+      "Eine Datei, die grundlegende Informationen über Gruppen enthält"
     ],
     "answer": [
-      "Private web browser windows do not store cookies persistently.",
-      "Private web browser windows do not keep records in the browser history.",
-      "Private web browser windows do not send regular stored cookies."
+      "Eine Datei, die grundlegende Informationen über Benutzer enthält"
     ]
   },
   {
-    "id": 80,
-    "question": "What is the preferred source for the installation of new applications in a Linux based operating system?",
+    "id": 216,
+    "question": "Welche Datei enthält verschlüsselte Benutzerpasswörter?",
     "options": [
-      "The vendor's version management system",
-      "A CD-ROM disk",
-      "The distribution's package repository",
-      "The vendor's website",
-      "A retail store"
+      "/etc/passwd",
+      "/etc/group",
+      "/etc/shadow",
+      "/etc/gshadow"
     ],
     "answer": [
-      "The distribution's package repository"
+      "/etc/shadow"
     ]
   },
   {
-    "id": 81,
-    "question": "What information is stored in /etc/passwd? (Choose three correct answers.)",
+    "id": 217,
+    "question": "Welche Datei enthält grundlegende Informationen über Gruppen?",
     "options": [
-      "The user's storage space limit",
-      "The numerical user ID",
-      "The username",
-      "The encrypted password",
-      "The user\\s default shell"
+      "/etc/passwd",
+      "/etc/group",
+      "/etc/shadow",
+      "/etc/gshadow"
     ],
     "answer": [
-      "The numerical user ID",
-      "The username",
-      "The user\\s default shell"
+      "/etc/group"
+    ]
+  },
+  {
+    "id": 218,
+    "question": "Welche Datei enthält verschlüsselte Gruppenpasswörter?",
+    "options": [
+      "/etc/passwd",
+      "/etc/group",
+      "/etc/shadow",
+      "/etc/gshadow"
+    ],
+    "answer": [
+      "/etc/gshadow"
+    ]
+  },
+  {
+    "id": 219,
+    "question": "Welcher Befehl wird verwendet, um ein neues Benutzerkonto hinzuzufügen?",
+    "options": [
+      "userdel",
+      "passwd",
+      "groupadd",
+      "useradd"
+    ],
+    "answer": [
+      "useradd"
+    ]
+  },
+  {
+    "id": 220,
+    "question": "Welcher Befehl wird verwendet, um ein Benutzerkonto zu löschen?",
+    "options": [
+      "useradd",
+      "passwd",
+      "groupdel",
+      "userdel"
+    ],
+    "answer": [
+      "userdel"
+    ]
+  },
+  {
+    "id": 221,
+    "question": "Was ist der Befehl zum Erstellen eines neuen Benutzerkontos?",
+    "options": [
+      "groupadd",
+      "useradd",
+      "userdel",
+      "passwd"
+    ],
+    "answer": [
+      "useradd"
+    ]
+  },
+  {
+    "id": 222,
+    "question": "Welche Datei enthält die verschlüsselten Passwörter der Benutzer?",
+    "options": [
+      "/etc/passwd",
+      "/etc/group",
+      "/etc/shadow",
+      "/etc/gshadow"
+    ],
+    "answer": [
+      "/etc/shadow"
+    ]
+  },
+  {
+    "id": 223,
+    "question": "Welche Shell ist für den Benutzer dave eingestellt?",
+    "options": [
+      "/bin/sh",
+      "/bin/tcsh",
+      "/bin/bash",
+      "/bin/zsh"
+    ],
+    "answer": [
+      "/bin/bash"
+    ]
+  },
+  {
+    "id": 224,
+    "question": "Was ist die Benutzer-ID (UID) von carol?",
+    "options": [
+      "1050",
+      "1015",
+      "1051",
+      "1035"
+    ],
+    "answer": [
+      "1051"
+    ]
+  },
+  {
+    "id": 225,
+    "question": "Welcher Befehl wird verwendet, um ein Benutzerkonto zu löschen?",
+    "options": [
+      "groupdel",
+      "useradd",
+      "userdel",
+      "passwd"
+    ],
+    "answer": [
+      "userdel"
+    ]
+  },
+  {
+    "id": 226,
+    "question": "Was zeigt der Befehl `ls -l` an?",
+    "options": [
+      "Dateigröße",
+      "Dateityp und Zugriffsrechte",
+      "Dateiname",
+      "Datum der letzten Änderung"
+    ],
+    "answer": [
+      "Dateityp und Zugriffsrechte"
+    ]
+  },
+  {
+    "id": 227,
+    "question": "Was bedeutet das `r` in den Dateiberechtigungen?",
+    "options": [
+      "Schreiben",
+      "Lesen",
+      "Ausführen",
+      "Löschen"
+    ],
+    "answer": [
+      "Lesen"
+    ]
+  },
+  {
+    "id": 228,
+    "question": "Welche Berechtigung hat den oktalen Wert 2?",
+    "options": [
+      "Lesen",
+      "Schreiben",
+      "Ausführen",
+      "Keine"
+    ],
+    "answer": [
+      "Schreiben"
+    ]
+  },
+  {
+    "id": 229,
+    "question": "Was zeigt das erste Zeichen in der `ls -l` Ausgabe an?",
+    "options": [
+      "Dateigröße",
+      "Dateityp",
+      "Datum der letzten Änderung",
+      "Dateiname"
+    ],
+    "answer": [
+      "Dateityp"
+    ]
+  },
+  {
+    "id": 230,
+    "question": "Was bedeutet das `x` in den Dateiberechtigungen?",
+    "options": [
+      "Lesen",
+      "Schreiben",
+      "Ausführen",
+      "Löschen"
+    ],
+    "answer": [
+      "Ausführen"
+    ]
+  },
+  {
+    "id": 231,
+    "question": "Was ist der Befehl zum Ändern der Berechtigungen einer Datei?",
+    "options": [
+      "ls",
+      "chmod",
+      "chown",
+      "chgrp"
+    ],
+    "answer": [
+      "chmod"
+    ]
+  },
+  {
+    "id": 232,
+    "question": "Wie lautet der Befehl, um den Eigentümer einer Datei zu ändern?",
+    "options": [
+      "ls",
+      "chmod",
+      "chown",
+      "chgrp"
+    ],
+    "answer": [
+      "chown"
+    ]
+  },
+  {
+    "id": 233,
+    "question": "Welche Berechtigungen hat eine Datei mit den numerischen Berechtigungen 754?",
+    "options": [
+      "rwxr-xr-x",
+      "rwxr-xr--",
+      "rwxrwxr--",
+      "rwxr-x--x"
+    ],
+    "answer": [
+      "rwxr-xr--"
+    ]
+  },
+  {
+    "id": 234,
+    "question": "Was bedeutet das SGID-Bit bei einer Datei?",
+    "options": [
+      "Die Datei wird mit den Rechten des Eigentümers ausgeführt.",
+      "Die Datei wird mit den Rechten der Gruppe ausgeführt.",
+      "Die Datei wird mit den Rechten des Erstellers ausgeführt.",
+      "Die Datei wird mit den Rechten des Systems ausgeführt."
+    ],
+    "answer": [
+      "Die Datei wird mit den Rechten der Gruppe ausgeführt."
+    ]
+  },
+  {
+    "id": 235,
+    "question": "Was bedeutet ein großes 'S' in den Dateiberechtigungen?",
+    "options": [
+      "Der Benutzer hat Ausführungsrechte und das SUID-Bit ist gesetzt.",
+      "Der Benutzer hat keine Ausführungsrechte und das SUID-Bit ist gesetzt.",
+      "Die Gruppe hat Ausführungsrechte und das SGID-Bit ist gesetzt.",
+      "Die Gruppe hat keine Ausführungsrechte und das SGID-Bit ist gesetzt."
+    ],
+    "answer": [
+      "Der Benutzer hat keine Ausführungsrechte und das SUID-Bit ist gesetzt."
+    ]
+  },
+  {
+    "id": 236,
+    "question": "Was sind temporäre Dateien?",
+    "options": [
+      "Daten, die dauerhaft gespeichert werden",
+      "Daten, die nur für eine kurze Zeit benötigt werden",
+      "Daten, die niemals gelöscht werden",
+      "Daten, die nur von Administratoren verwendet werden"
+    ],
+    "answer": [
+      "Daten, die nur für eine kurze Zeit benötigt werden"
+    ]
+  },
+  {
+    "id": 237,
+    "question": "Welches Verzeichnis wird während des Systemstarts gelöscht?",
+    "options": [
+      "/var/tmp",
+      "/home/tmp",
+      "/run",
+      "/usr/tmp"
+    ],
+    "answer": [
+      "/run"
+    ]
+  },
+  {
+    "id": 238,
+    "question": "Was zeigt das Sticky Bit in den Berechtigungen an?",
+    "options": [
+      "x",
+      "s",
+      "t",
+      "r"
+    ],
+    "answer": [
+      "t"
+    ]
+  },
+  {
+    "id": 239,
+    "question": "Wie lautet der Befehl, um einen symbolischen Link zu erstellen?",
+    "options": [
+      "ln -h",
+      "ln -l",
+      "ln -s",
+      "ln -t"
+    ],
+    "answer": [
+      "ln -s"
+    ]
+  },
+  {
+    "id": 240,
+    "question": "Was ist ein Hard Link?",
+    "options": [
+      "Ein Duplikat der Originaldatei",
+      "Ein zusätzlicher Eintrag im Dateisystem, der auf dieselbe Stelle auf der Platte zeigt",
+      "Ein symbolischer Link",
+      "Ein temporärer Link"
+    ],
+    "answer": [
+      "Ein zusätzlicher Eintrag im Dateisystem, der auf dieselbe Stelle auf der Platte zeigt"
+    ]
+  },
+  {
+    "id": 241,
+    "question": "Wo sollten temporäre Dateien erstellt werden?",
+    "options": [
+      "/var/tmp",
+      "/tmp",
+      "/home/tmp",
+      "/usr/tmp"
+    ],
+    "answer": [
+      "/tmp"
+    ]
+  },
+  {
+    "id": 242,
+    "question": "Welches Verzeichnis wird während des Bootvorgangs gelöscht?",
+    "options": [
+      "/tmp",
+      "/var/tmp",
+      "/run",
+      "/home/run"
+    ],
+    "answer": [
+      "/run"
+    ]
+  },
+  {
+    "id": 243,
+    "question": "Welcher Parameter wird für chmod verwendet, um das Sticky Bit zu aktivieren?",
+    "options": [
+      "+s",
+      "+x",
+      "+t",
+      "+r"
+    ],
+    "answer": [
+      "+t"
+    ]
+  },
+  {
+    "id": 244,
+    "question": "Wie lautet der Befehl, um einen symbolischen Link zu erstellen?",
+    "options": [
+      "ln -h",
+      "ln -l",
+      "ln -s",
+      "ln -k"
+    ],
+    "answer": [
+      "ln -s"
+    ]
+  },
+  {
+    "id": 245,
+    "question": "Was passiert mit einem Softlink, wenn der Zielname gelöscht wird?",
+    "options": [
+      "Der Softlink bleibt funktionsfähig",
+      "Der Softlink wird automatisch aktualisiert",
+      "Der Softlink funktioniert nicht mehr",
+      "Der Softlink wird in einen Hardlink umgewandelt"
+    ],
+    "answer": [
+      "Der Softlink funktioniert nicht mehr"
     ]
   }
 ]
