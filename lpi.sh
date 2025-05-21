@@ -100,7 +100,7 @@ echo "<biw>{{ BR-scissors }} Setting environment ...</biw>\n"
 which jq &> /dev/null || fail 1 "jq not found, please install and try again."
 
 ## Fetch data
-LPI_QUESTIONS_URL="https://raw.githubusercontent.com/Noam-Alum/lpi_010_160_exam/refs/heads/main/lpi/lpi_questions.json"
+LPI_QUESTIONS_URL="https://raw.githubusercontent.com/JernicVR/lpi_010_160_theoretical_exam/main/lpi/lpi_exercise_questions.json"
 readonly LPI_QUESTIONS_URL
 
 echo "$INFO_BULLET <biw>Validating url.</biw>"
