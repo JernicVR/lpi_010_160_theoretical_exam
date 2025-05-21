@@ -47,11 +47,11 @@ function fail {
 
 	if [ -z "$1" ]; then ERR_CODE="4"; else ERR_CODE="$1"; fi
 	if [ -z "$2" ]; then ERR_MSG=":\nNo error specified.";else ERR_MSG="$2"; fi
-	xecho "$FAIL_BULLET <biw>$ERR_MSG</biw>\n" >&2
+	echo "$FAIL_BULLET <biw>$ERR_MSG</biw>\n" >&2
 
   # Exit even if a fork is calling fail
   if [ "$BASH_SUBSHELL" -gt 0 ]; then
-    xecho "$FAIL_BULLET <biw>$ERR_MSG, Exit code should be:</biw> <on_ib><biw>$ERR_CODE</biw></on_ib>\n" >&2
+    echo "$FAIL_BULLET <biw>$ERR_MSG, Exit code should be:</biw> <on_ib><biw>$ERR_CODE</biw></on_ib>\n" >&2
     pkill --signal 9 -f "$(basename "$0")"
   fi
 
@@ -94,8 +94,8 @@ function get_random_function_id {
 }
 
 # | Set environment
-xecho "$LPI_BANNER"
-xecho "<biw>{{ BR-scissors }} Setting environment ...</biw>\n"
+echo "$LPI_BANNER"
+echo "<biw>{{ BR-scissors }} Setting environment ...</biw>\n"
 ## Check for jq
 which jq &> /dev/null || fail 1 "jq not found, please install and try again."
 
@@ -103,26 +103,26 @@ which jq &> /dev/null || fail 1 "jq not found, please install and try again."
 LPI_QUESTIONS_URL="https://raw.githubusercontent.com/Noam-Alum/lpi_010_160_exam/refs/heads/main/lpi/lpi_questions.json"
 readonly LPI_QUESTIONS_URL
 
-xecho "$INFO_BULLET <biw>Validating url.</biw>"
+echo "$INFO_BULLET <biw>Validating url.</biw>"
 LPI_QUESTIONS_URL_RESPONSE_CODE="$(curl -o '/dev/null'\
                                         -I -s\
                                         -w "%{http_code}\n"  "$LPI_QUESTIONS_URL"
                                   )"
 if [ "$LPI_QUESTIONS_URL_RESPONSE_CODE" -eq 200 ]; then
-  xecho "$INFO_BULLET <biw>Fetching LPI questions from</biw> <on_ib><biw> $LPI_QUESTIONS_URL </biw></on_ib><biw>.</biw>"
+  echo "$INFO_BULLET <biw>Fetching LPI questions from</biw> <on_ib><biw> $LPI_QUESTIONS_URL </biw></on_ib><biw>.</biw>"
   LPI_QUESTIONS_DATA="$(curl -Ls "$LPI_QUESTIONS_URL")"
   readonly LPI_QUESTIONS_DATA
 else
   fail 1 "Can't fetch LPI questions ($LPI_QUESTIONS_URL got $LPI_QUESTIONS_URL_RESPONSE_CODE response code)."
 fi
-xecho "\n<biw>{{ BR-scissors }} Done! {{ E-smile }}</biw>"
+echo "\n<biw>{{ BR-scissors }} Done! {{ E-smile }}</biw>"
 
 
 
 # Test
-trap 'xecho "\n\n<on_ib><biw>CTRL+C</biw></on_ib> <biw>pressed!</biw>\n\n\n<biw>{{ BR-bear }}\n\nResults:</biw> <on_ib><biw> ($LPI_CORRECT_ANSWERS/$(( $TOTAL_QUESTIONS + 1 ))) </biw></on_ib>\n";exit 1' SIGINT
+trap 'echo "\n\n<on_ib><biw>CTRL+C</biw></on_ib> <biw>pressed!</biw>\n\n\n<biw>{{ BR-bear }}\n\nResults:</biw> <on_ib><biw> ($LPI_CORRECT_ANSWERS/$(( $TOTAL_QUESTIONS + 1 ))) </biw></on_ib>\n";exit 1' SIGINT
 LPI_CORRECT_ANSWERS=0
-xecho "\n\n<biw>LPI practice exam:\n{{ BR-bear }}</biw>\n"
+echo "\n\n<biw>LPI practice exam:\n{{ BR-bear }}</biw>\n"
 
 TOTAL_QUESTIONS="$(( $(jq -r .[-1].id <<< "$LPI_QUESTIONS_DATA") - 1 ))"
 readonly TOTAL_QUESTIONS
@@ -147,12 +147,12 @@ do
   LPI_QUESTIONS=()
   while IFS='' read -r line; do LPI_QUESTIONS+=("$line"); done < <(jq -r ".[$QUESTION_INDEX].options[]" <<< "$LPI_QUESTIONS_DATA")
 
-  xecho "$INFO_BULLET <biw>$LPI_QUESTION</biw>\n"
+  echo "$INFO_BULLET <biw>$LPI_QUESTION</biw>\n"
   LPI_QUESTION_OPTIONS_INDEX=1
 
   for LPI_OPTION in "${LPI_QUESTIONS[@]}"
   do
-    xecho "   $(( LPI_QUESTION_OPTIONS_INDEX ))) <biw>$LPI_OPTION</biw>"
+    echo "   $(( LPI_QUESTION_OPTIONS_INDEX ))) <biw>$LPI_OPTION</biw>"
     (( LPI_QUESTION_OPTIONS_INDEX++ ))
   done
 
@@ -161,12 +161,12 @@ do
     user_input LPI_USER_ANSWER "int 1 ${#LPI_QUESTIONS[@]}" "\n  $INFO_BULLET <biw>Answer number $LPI_USER_ANSWER_INDEX (1 - ${#LPI_QUESTIONS[@]}):</biw> "
     (( LPI_USER_ANSWER-- ))
     if ! array_contains "${LPI_QUESTIONS[$LPI_USER_ANSWER]}" "${LPI_ANSWERS[@]}"; then
-      xecho "  $FAIL_BULLET <biw>Wrong! (current answer is \"${LPI_ANSWERS[*]}\")</biw> <bir>{{ E-fail }}</bir>"
+      echo "  $FAIL_BULLET <biw>Wrong! (current answer is \"${LPI_ANSWERS[*]}\")</biw> <bir>{{ E-fail }}</bir>"
       LPI_GOT_ALL_RIGHT=false
       unset LPI_USER_ANSWER
       break
     fi
-    xecho "  $SUCCESS_BULLET <biw>Nice you got that right</biw> <big>{{ E-success }}</big>"
+    echo "  $SUCCESS_BULLET <biw>Nice you got that right</biw> <big>{{ E-success }}</big>"
     LPI_GOT_ALL_RIGHT=true
     unset LPI_USER_ANSWER
   done
@@ -180,4 +180,4 @@ do
   unset LPI_USER_ANSWER
 done
 
-xecho "\n\n<biw>{{ BR-bear }}\n\nResults:</biw> <on_ib><biw> ($LPI_CORRECT_ANSWERS/$(( TOTAL_QUESTIONS + 1 )))</biw></on_ib>\n"
+echo "\n\n<biw>{{ BR-bear }}\n\nResults:</biw> <on_ib><biw> ($LPI_CORRECT_ANSWERS/$(( TOTAL_QUESTIONS + 1 )))</biw></on_ib>\n"
